@@ -104,7 +104,7 @@ export default function FeaturedWork() {
                 </div>
 
                 <div className="text-center mt-16">
-                    <a href="/our-work" className="inline-flex items-center gap-2 text-white font-bold tracking-widest uppercase text-sm border-b-2 border-[var(--color-primary-light)] pb-1 hover:text-[var(--color-primary-light)] transition-colors group">
+                    <a href="/portfolio" className="inline-flex items-center gap-2 text-white font-bold tracking-widest uppercase text-sm border-b-2 border-[var(--color-primary-light)] pb-1 hover:text-[var(--color-primary-light)] transition-colors group">
                         Explore Full Portfolio
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="group-hover:translate-x-2 transition-transform">
                             <line x1="5" y1="12" x2="19" y2="12"></line>

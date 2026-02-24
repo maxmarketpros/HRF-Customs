@@ -96,24 +96,26 @@ const services = [
     },
 ];
 
-export default function ServicesGrid() {
+export default function ServicesGrid({ hideHeader = false, hideButton = false }: { hideHeader?: boolean, hideButton?: boolean } = {}) {
     return (
         <section id="services" className="py-24 lg:py-32 bg-[var(--color-warm)] relative">
             <div className="page-container relative z-10">
-                <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-20">
-                    <div className="inline-flex items-center px-4 py-1.5 bg-[var(--color-primary-light)]/10 text-[var(--color-primary-light)] text-xs font-bold uppercase tracking-[0.2em] rounded mb-6">
-                        Our Expertise
+                {!hideHeader && (
+                    <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-20">
+                        <div className="inline-flex items-center px-4 py-1.5 bg-[var(--color-primary-light)]/10 text-[var(--color-primary-light)] text-xs font-bold uppercase tracking-[0.2em] rounded mb-6">
+                            Our Expertise
+                        </div>
+                        <h2 className="text-4xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.1] mb-6 tracking-tight">
+                            Building With Purpose and Precision
+                        </h2>
+                        <p className="text-lg text-[var(--color-neutral-600)] leading-relaxed">
+                            HRF Customs delivers full-scope custom home building and general
+                            contracting services. From the foundation to the final detail, every
+                            service is delivered with owner-led oversight and a commitment to
+                            quality that our clients have come to expect.
+                        </p>
                     </div>
-                    <h2 className="text-4xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.1] mb-6 tracking-tight">
-                        Building With Purpose and Precision
-                    </h2>
-                    <p className="text-lg text-[var(--color-neutral-600)] leading-relaxed">
-                        HRF Customs delivers full-scope custom home building and general
-                        contracting services. From the foundation to the final detail, every
-                        service is delivered with owner-led oversight and a commitment to
-                        quality that our clients have come to expect.
-                    </p>
-                </div>
+                )}
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
                     {services.map((service) => (
@@ -161,14 +163,16 @@ export default function ServicesGrid() {
                     ))}
                 </div>
 
-                <div className="text-center mt-16">
-                    <a href="/services" className="btn-primary group" style={{ padding: "1.25rem 3rem" }}>
-                        <span className="flex items-center gap-2">
-                            View All Services
-                            <ArrowRightIcon size={18} className="group-hover:translate-x-1 transition-transform" />
-                        </span>
-                    </a>
-                </div>
+                {!hideButton && (
+                    <div className="text-center mt-16">
+                        <a href="/services" className="btn-primary group" style={{ padding: "1.25rem 3rem" }}>
+                            <span className="flex items-center gap-2">
+                                View All Services
+                                <ArrowRightIcon size={18} className="group-hover:translate-x-1 transition-transform" />
+                            </span>
+                        </a>
+                    </div>
+                )}
             </div>
 
             {/* Subtle background decoration map */}

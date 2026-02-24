@@ -79,7 +79,7 @@ export default function TestimonialsPreview() {
                 </div>
 
                 <div className="text-center mt-16 lg:mt-24">
-                    <a href="/reviews" className="btn-outline border-2 px-8 py-3.5 tracking-widest text-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-white transition-colors uppercase font-bold text-xs inline-flex items-center gap-3">
+                    <a href="/testimonials" className="btn-outline border-2 px-8 py-3.5 tracking-widest text-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-white transition-colors uppercase font-bold text-xs inline-flex items-center gap-3">
                         Read All Testimonials
                         <ArrowRightIcon size={16} />
                     </a>
