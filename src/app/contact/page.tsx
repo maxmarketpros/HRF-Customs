@@ -24,18 +24,18 @@ export default function ContactPage() {
 
                 <div className="page-container relative z-10 text-center max-w-4xl mx-auto">
                     <div className="inline-flex items-center px-4 py-1.5 bg-[var(--color-primary-light)]/10 text-[var(--color-primary-light)] text-[10px] sm:text-xs font-bold uppercase tracking-[0.2em] mb-6 border border-[var(--color-primary-light)]/20 shadow-sm backdrop-blur-md">
-                        Dispatch Protocol
+                        Get In Touch
                     </div>
                     <h1 className="text-4xl sm:text-5xl lg:text-7xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.05] mb-6">
-                        Initiate A Project
+                        Start Your Project
                     </h1>
                     <p className="text-lg lg:text-xl text-[var(--color-neutral-300)] leading-relaxed max-w-2xl mx-auto font-light">
-                        Transmit your requirements, timelines, and logistical data. Our leadership team will review your submission and coordinate a strategic consultation.
+                        Share your vision, timelines, and project details with us. Our team will review your information and reach out to schedule a consultation.
                     </p>
                 </div>
                 {/* Massive Watermark */}
                 <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 text-[15rem] font-bold text-white/[0.02] select-none pointer-events-none font-[family-name:var(--font-outfit)] leading-none whitespace-nowrap">
-                    COMMAND
+                    CONTACT
                 </div>
             </section>
 
@@ -55,7 +55,7 @@ export default function ContactPage() {
                         <div className="lg:col-span-7 flex flex-col">
                             <h2 className="text-2xl lg:text-3xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-8 flex items-center gap-4">
                                 <span className="w-8 h-8 rounded bg-[var(--color-primary)]/10 flex items-center justify-center text-[var(--color-primary)] text-sm">01</span>
-                                Project Intake Data
+                                Project Details
                             </h2>
                             <div className="bg-[var(--color-neutral-50)] border border-[var(--color-neutral-200)] p-2 lg:p-4 w-full min-h-[850px] relative rounded-lg shadow-sm">
                                 <iframe
@@ -85,7 +85,7 @@ export default function ContactPage() {
                         <div className="lg:col-span-5 flex flex-col pt-2 lg:pt-0">
                             <h2 className="text-2xl lg:text-3xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-8 flex items-center gap-4">
                                 <span className="w-8 h-8 rounded bg-[var(--color-neutral-800)] flex items-center justify-center text-white text-sm">02</span>
-                                Operational Intel
+                                Contact Info
                             </h2>
 
                             <div className="space-y-6">
@@ -102,7 +102,7 @@ export default function ContactPage() {
                                         <div className="w-10 h-10 bg-[var(--color-neutral-50)] flex items-center justify-center text-[var(--color-primary)] mb-4 group-hover:-translate-y-1 transition-transform">
                                             <EmailIcon size={18} />
                                         </div>
-                                        <div className="text-[10px] uppercase font-bold text-[var(--color-neutral-500)] tracking-wider mb-1">Transmission</div>
+                                        <div className="text-[10px] uppercase font-bold text-[var(--color-neutral-500)] tracking-wider mb-1">Email Us</div>
                                         <a href="mailto:highridgeframing@gmail.com" className="text-sm font-bold text-[var(--color-neutral-900)] hover:text-[var(--color-primary)] transition-colors break-words">highridgeframing<br />@gmail.com</a>
                                     </div>
                                 </div>
@@ -110,8 +110,8 @@ export default function ContactPage() {
                                 <div className="bg-[var(--color-neutral-50)] border border-[var(--color-neutral-200)] p-6 rounded-lg flex gap-4">
                                     <div className="mt-1 text-[var(--color-primary)] shrink-0"><ClockIcon size={20} /></div>
                                     <div>
-                                        <div className="text-[10px] uppercase font-bold text-[var(--color-neutral-500)] tracking-wider mb-1">Deployment Hours</div>
-                                        <div className="text-sm font-medium text-[var(--color-neutral-900)]">Monday – Saturday: 0800 HRS to 1800 HRS</div>
+                                        <div className="text-[10px] uppercase font-bold text-[var(--color-neutral-500)] tracking-wider mb-1">Business Hours</div>
+                                        <div className="text-sm font-medium text-[var(--color-neutral-900)]">Monday – Saturday: 8:00 AM — 6:00 PM</div>
                                     </div>
                                 </div>
 
@@ -119,7 +119,7 @@ export default function ContactPage() {
                                     <div className="flex gap-4">
                                         <div className="mt-1 text-[var(--color-primary)] shrink-0"><MapPinIcon size={20} /></div>
                                         <div>
-                                            <div className="text-[10px] uppercase font-bold text-[var(--color-neutral-500)] tracking-wider mb-1">Headquarters</div>
+                                            <div className="text-[10px] uppercase font-bold text-[var(--color-neutral-500)] tracking-wider mb-1">Office Location</div>
                                             <div className="text-sm font-medium text-[var(--color-neutral-900)]">8536 S 150 E<br />Paradise, UT 84328</div>
                                         </div>
                                     </div>

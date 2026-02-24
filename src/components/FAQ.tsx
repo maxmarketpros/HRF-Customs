@@ -77,7 +77,7 @@ export default function FAQ() {
                         </div>
 
                         <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                            Operational Intel
+                            Frequently Asked Questions
                         </h2>
 
                         <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed max-w-2xl mx-auto">

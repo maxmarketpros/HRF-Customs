@@ -26,74 +26,74 @@ export const metadata: Metadata = {
 const historicalTimeline = [
     {
         year: "2008",
-        title: "Foundation & Framing Mastery",
-        description: "HRF Customs was born not in a boardroom, but in the trenches of Cache Valley. Our founders started as elite timber framers and concrete specialists, mastering the actual physical mechanics of building long before ever managing a spreadsheet."
+        title: "Foundation & Framing Roots",
+        description: "HRF Customs was born from hands-on experience in Cache Valley. Our founders started as dedicated timber framers and concrete specialists, mastering the physical mechanics of building long before stepping into a project management role."
     },
     {
         year: "2012",
-        title: "Expansion into Extreme Environments",
-        description: "As our reputation for absolute structural integrity grew, we were pulled into increasingly hostile build environments—handling high-altitude custom estates in Star Valley and Bear Lake where mass market builders fail."
+        title: "Expansion into Custom Estates",
+        description: "As HRF Customs' reputation for quality and structural integrity grew, we expanded our services to handle demanding custom home builds and high-altitude luxury estates in Star Valley and Bear Lake."
     },
     {
         year: "2016",
-        title: "Vertical Integration",
-        description: "Realizing that relying on third-party excavators and framers compromised our extreme timelines, we vertically integrated our core heavy trades. We brought mass excavation and structural framing entirely in-house."
+        title: "In-House Capabilities",
+        description: "To ensure our projects stayed on schedule and met our exacting standards, HRF Customs brought key trades in-house. By managing our own full-time excavation and framing crews, we eliminated delays and improved quality control."
     },
     {
         year: "2020",
-        title: "The Elite Command Matrix",
-        description: "We transitioned fully into an apex General Contracting role, orchestrating complete multi-million-dollar builds by applying our proprietary ground-truth logistics and zero-tolerance quality control to the entire project lifecycle."
+        title: "Growing as a General Contractor",
+        description: "HRF Customs transitioned fully into a premier General Contracting firm, using our deep trade experience to expertly manage complete multi-million-dollar custom home builds from the initial design phase to final move-in."
     },
     {
         year: "Present",
-        title: "The HRF Standard",
-        description: "Today, HRF Customs stands as the uncompromising authority on luxury estate construction in Northern Utah and Western Wyoming. We do not chase volume; we chase absolute architectural perfection."
+        title: "The HRF Customs Standard",
+        description: "Today, HRF Customs stands as a trusted authority on luxury custom home construction across Northern Utah and Western Wyoming. Our focus remains on architectural excellence, clear communication, and delivering unparalleled value to our clients."
     }
 ];
 
 const pillarsOfExecution = [
     {
         icon: HardHatIcon,
-        title: "Ground-Truth Leadership",
-        description: "We believe that a general contractor who manages from an office is inherently compromised. Our leadership maintains a heavy, daily physical presence on our job sites, catching millimeter-level discrepancies before they compound into massive errors."
+        title: "Hands-On Leadership",
+        description: "At HRF Customs, we believe a great general contractor needs to be on the job site, not just in an office. Our leadership maintains a heavy physical presence on every custom home build, ensuring quality and answering questions daily."
     },
     {
         icon: ShieldIcon,
-        title: "Absolute Accountability",
-        description: "When an HRF Customs superintendent is on-site, the buck stops unconditionally with us. We absorb the liability of massive multi-trade coordination so our clients never have to mediate a dispute between an architect and an electrician."
+        title: "Complete Accountability",
+        description: "When HRF Customs manages your project, the buck stops with us. We absorb the stress of coordinating dozens of subcontractors and vendors so our clients can enjoy a seamless, transparent building experience."
     },
     {
         icon: RulerIcon,
-        title: "Surgical Precision",
-        description: "In luxury home building, 'good enough' is a catastrophic failure. We hold our subcontractor matrix to impossible tolerances. If the framing is off by an eighth of an inch, it is torn out and rebuilt before the drywall ever arrives."
+        title: "Uncompromising Precision",
+        description: "In luxury home building, details matter. HRF Customs holds every phase of construction to the highest standards. From the foundation to the final finish carpentry, we ensure the work is done right the first time."
     },
     {
         icon: BuildingIcon,
-        title: "Architectural Veneration",
-        description: "We exist to bring high-end architectural renderings into physical reality without compromising the original vision through clumsy 'value engineering'. We protect the integrity of the design against the harsh realities of physics."
+        title: "Respecting the Architecture",
+        description: "HRF Customs exists to bring your architect's vision to life. We work collaboratively with your design team to ensure that the beauty of the original concept isn't lost during the realities of the construction phase."
     }
 ];
 
 const faqs = [
     {
-        question: "Why should I choose HRF Customs over a legacy volume builder?",
-        answer: "Legacy volume builders prioritize speed over scrutiny. Their business models rely on churning out subdivisions using templated, lowest-bidder subcontractors. HRF Customs builds one-of-a-kind bespoke estates in extremely difficult terrain. We operate a low-volume, maximum-control matrix designed specifically for clients who demand absolute perfection rather than a quick turnaround."
+        question: "Why should I choose HRF Customs for my custom home build?",
+        answer: "Unlike volume builders who focus on speeding through subdivisions, HRF Customs specializes in unique, highly customized estates. We take on a limited number of projects each year to ensure we can provide the hands-on management and intense attention to detail that a true luxury home requires."
     },
     {
-        question: "What is your philosophy on subcontractor selection?",
-        answer: "We treat our subcontractor network like an elite tactical unit. We do not use public bid boards. We have spent over a decade curating a closed-circuit network of the highest-performing finish carpenters, masons, and mechanical integrators in Utah and Wyoming. If a trade compromises our standard of quality, they are permanently removed from our roster."
+        question: "How does HRF Customs select subcontractors?",
+        answer: "Over our 15+ years in the industry, HRF Customs has curated a trusted network of the finest tradesmen, masons, and craftsmen in Utah and Wyoming. We partner exclusively with professionals who share our commitment to excellence and reliability."
     },
     {
-        question: "How do you handle out-of-state or high-net-worth clients?",
-        answer: "The majority of our clients are remote executives or out-of-state investors building secondary estates. We have engineered our entire communication protocol around this reality. We provide heavily documented, high-resolution digital weekly briefings, real-time financial transparency, and ironclad operational schedules, completely insulating you from localized friction."
+        question: "Does HRF Customs work with out-of-state clients?",
+        answer: "Yes, many of our clients at HRF Customs are building secondary homes or relocating from out of state. We provide detailed weekly updates, progress photos, and transparent financial reporting so you can feel completely connected to your build from anywhere in the world."
     },
     {
-        question: "Do you primarily work in Cache Valley?",
-        answer: "While our operational headquarters is in Paradise, Utah (Cache Valley), we are heavily deployed across the harshest build environments in the region. Our logistical fleet routinely executes multi-million-dollar projects in Bear Lake, Star Valley, Preston, and the broader Northern Wasatch front. We specifically target complicated, high-altitude, and extreme-weather builds."
+        question: "What areas does HRF Customs build in?",
+        answer: "While HRF Customs is headquartered in Paradise, Utah, our service area extends across Northern Utah, Southern Idaho, and Western Wyoming. We frequently build custom homes in Cache Valley, Bear Lake, Star Valley, Preston, and the surrounding regions."
     },
     {
-        question: "How did HRF Customs start?",
-        answer: "The company was forged in heavy structural trades. Our founders didn't start with business degrees; they started with tool belts. By mastering the hardest phases of construction—mass excavation, foundational concrete, and complex timber framing—we evolved into General Contractors who actually understand the ground-truth mechanics of the sub-trades we now command."
+        question: "What makes HRF Customs different from other builders?",
+        answer: "HRF Customs was built by founders who started in the heavy trades. Because we have hands-on experience framing homes and pouring concrete, we have a much deeper understanding of the construction process than a contractor who has only ever managed paperwork."
     }
 ];
 
@@ -117,17 +117,17 @@ export default function AboutPage() {
                 <div className="page-container relative z-10 w-full">
                     <div className="max-w-4xl">
                         <div className="inline-flex items-center px-4 py-1.5 bg-[var(--color-primary-light)]/20 text-[var(--color-primary-light)] text-xs font-bold uppercase tracking-[0.2em] rounded mb-6 backdrop-blur-md border border-[var(--color-primary-light)]/30">
-                            Our Operational Authority
+                            Our Commitment to Quality
                         </div>
                         <h1 className="text-4xl lg:text-6xl xl:text-7xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.1] mb-6">
-                            Engineered For <br className="hidden md:block" />
-                            <span className="text-[var(--color-primary-light)]">Absolute Perfection.</span>
+                            Building Exceptional <br className="hidden md:block" />
+                            <span className="text-[var(--color-primary-light)]">Custom Homes.</span>
                         </h1>
                         <p className="text-lg lg:text-xl text-neutral-300 leading-relaxed max-w-2xl mb-10 font-[family-name:var(--font-inter)]">
-                            HRF Customs is an elite, owner-operated general contracting firm forged in the harshest environments of Northern Utah and Western Wyoming. We do not manage from a distance; we command the ground truth.
+                            HRF Customs is a premier, owner-operated general contracting firm serving Northern Utah and Western Wyoming. We bring decades of hands-on experience and a passion for craftsmanship to every custom home we build.
                         </p>
                         <a href="#operational-manifesto" className="btn-primary shadow-lg hover:shadow-[0_0_30px_rgba(56,189,248,0.4)] transition-all">
-                            Read Our Manifesto
+                            Read Our Story
                         </a>
                     </div>
                 </div>
@@ -154,7 +154,7 @@ export default function AboutPage() {
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60"></div>
                                 <div className="absolute bottom-8 left-8 right-8 text-white">
-                                    <h4 className="font-[family-name:var(--font-outfit)] font-bold text-xl mb-1">Ground-Truth Verification</h4>
+                                    <h4 className="font-[family-name:var(--font-outfit)] font-bold text-xl mb-1">On-Site Management</h4>
                                     <p className="text-sm text-neutral-300 font-medium uppercase tracking-widest">Cache Valley, UT</p>
                                 </div>
                             </div>
@@ -164,20 +164,20 @@ export default function AboutPage() {
 
                         <div className="lg:col-span-7 order-1 lg:order-2">
                             <div className="inline-flex items-center px-4 py-1.5 bg-[var(--color-neutral-100)] text-[var(--color-neutral-700)] text-xs font-bold uppercase tracking-[0.2em] rounded mb-6 w-max border border-[var(--color-neutral-200)]">
-                                The Genesis
+                                The HRF Customs Story
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-8">
-                                Forged in the Dirt. <br /> Mastered in the Details.
+                                Forged in the Trades. <br /> Dedicated to the Details.
                             </h2>
                             <div className="space-y-6 text-[var(--color-neutral-600)] text-lg leading-relaxed font-medium">
                                 <p>
-                                    Most luxury home builders begin their careers in real estate offices or financial firms, operating as brokers of labor who simply pass spreadsheets back and forth. HRF Customs was born entirely differently. We were forged in the heavy physical execution of complex trades.
+                                    At HRF Customs, we believe the best custom home builders are the ones who have actually swung a hammer. Our company wasn't started in an office; it was built in the field through years of hard work in the heavy trades.
                                 </p>
                                 <p>
-                                    Our company genesis is rooted deeply in brutal mass excavation, high-tolerance architectural concrete, and massive heavy timber framing. Before we ever claimed the title of General Contractor, we mastered the actual physics of assembling a home from the ground up in the most unforgiving environments of the Northern Rockies.
+                                    Our foundational roots go deep into excavation, structural framing, and concrete work. Before HRF Customs became a leading General Contractor in Cache Valley, we mastered the physical mechanics of building a home from the ground up in the beautiful but demanding environments of the Northern Rockies.
                                 </p>
                                 <p>
-                                    This gives us an asymmetric advantage. When an HRF superintendent audits a mechanical rough-in or a structural truss package, they aren't looking at it through the lens of a project manager—they are analyzing it with the ruthless scrutiny of master builders. We command our subcontractors not through contracts alone, but through absolute, verifiable field authority.
+                                    This hands-on background gives HRF Customs a unique advantage. When our team manages a project, we aren't just looking at spreadsheets. We understand the craftsmanship required from our subcontractors because we've done the work ourselves. This translates to incredibly high standards, better problem-solving on the job site, and a stronger, more beautifully finished home for our clients.
                                 </p>
                             </div>
 
@@ -213,13 +213,13 @@ export default function AboutPage() {
                 <div className="page-container relative z-10">
                     <div className="max-w-3xl mb-16 lg:mb-24">
                         <div className="inline-flex items-center px-4 py-1.5 bg-[var(--color-primary-light)]/10 text-[var(--color-primary-light)] text-xs font-bold uppercase tracking-[0.2em] rounded mb-6 w-max border border-[var(--color-primary-light)]/20">
-                            Our Pillars of Execution
+                            Our Core Principles
                         </div>
                         <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.15] mb-6">
-                            We Do Not Compromise.
+                            Building Without Compromise.
                         </h2>
                         <p className="text-neutral-400 text-lg leading-relaxed font-[family-name:var(--font-inter)]">
-                            Our standard operating procedures are violently enforced. We consider the protection of a client's capital, timeline, and architectural vision to be our ultimate fiduciary responsibility.
+                            At HRF Customs, our standard of work is never relaxed. We believe that protecting your investment, your timeline, and your architectural vision is our most important responsibility as your builder.
                         </p>
                     </div>
 
@@ -263,8 +263,8 @@ export default function AboutPage() {
                                             <TruckIcon size={24} />
                                         </div>
                                         <div>
-                                            <p className="text-[10px] font-bold tracking-[0.2em] text-[var(--color-primary-light)] uppercase">Internal Assets</p>
-                                            <p className="text-white font-bold font-[family-name:var(--font-outfit)] text-lg">Heavy Machinery Fleet</p>
+                                            <p className="text-[10px] font-bold tracking-[0.2em] text-[var(--color-primary-light)] uppercase">HRF Customs</p>
+                                            <p className="text-white font-bold font-[family-name:var(--font-outfit)] text-lg">In-House Excavation Fleet</p>
                                         </div>
                                     </div>
                                 </div>
@@ -274,10 +274,10 @@ export default function AboutPage() {
 
                         <div className="lg:col-span-6">
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                Engineered to Conquer The Northern Rockies
+                                Equipped to Build in Beautiful, Demanding Regions
                             </h2>
                             <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed mb-8 font-medium">
-                                We specialize in high-altitude, steep-slope, and highly complex extreme-weather builds from Logan to Star Valley. Standard residential builders collapse under these logistical pressures.
+                                HRF Customs specializes in building luxury homes in challenging environments—from steep mountain lots in Cache Valley to the cold winters of Star Valley. We have the equipment and expertise to handle logistics that overwhelm standard builders.
                             </p>
 
                             <div className="space-y-6">
@@ -286,9 +286,9 @@ export default function AboutPage() {
                                         <MountainSnowIcon size={22} />
                                     </div>
                                     <div>
-                                        <h4 className="text-xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-2">Winter Deployment Protocols</h4>
+                                        <h4 className="text-xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-2">Year-Round Building Capabilities</h4>
                                         <p className="text-[var(--color-neutral-600)] leading-relaxed text-sm">
-                                            We do not halt multi-million-dollar timelines because of snow. We deploy massive ground heaters, structural tarping, and immense logistical foresight to pour architectural concrete and frame custom timbers at zero degrees.
+                                            HRF Customs doesn't let snow stop your project timeline. We utilize ground heaters, structural tarping, and careful planning to safely pour concrete and frame homes even during the freezing months in Northern Utah and Idaho.
                                         </p>
                                     </div>
                                 </div>
@@ -297,9 +297,9 @@ export default function AboutPage() {
                                         <LayersIcon size={22} />
                                     </div>
                                     <div>
-                                        <h4 className="text-xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-2">Internal Earthwork Hegemony</h4>
+                                        <h4 className="text-xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-2">In-House Excavation & Site Prep</h4>
                                         <p className="text-[var(--color-neutral-600)] leading-relaxed text-sm">
-                                            A custom home's foundation is structurally intertwined with the mountain it sits on. Because we own our fleet of excavators and heavy equipment, we control the site prep, the grading, and the foundational integrity directly. No waiting on subcontractors.
+                                            A custom home's foundation is tied directly to the land it sits on. Because HRF Customs owns and operates our own fleet of heavy equipment, we control the site prep and grading without having to wait on outside subcontractors.
                                         </p>
                                     </div>
                                 </div>
@@ -418,13 +418,13 @@ export default function AboutPage() {
                     <div className="max-w-4xl mx-auto">
                         <div className="text-center mb-16">
                             <div className="inline-flex items-center px-4 py-1.5 bg-[var(--color-primary)]/10 text-[var(--color-primary)] text-xs font-bold uppercase tracking-[0.2em] rounded mb-6 w-max border border-[var(--color-primary)]/20 mx-auto">
-                                Institutional Knowledge
+                                Learn More About HRF
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                Frequently Asked Directives
+                                Frequently Asked Questions
                             </h2>
                             <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed max-w-2xl mx-auto">
-                                Clear answers detailing how we manage capital, clients, and massive structural projects.
+                                Helpful answers about how HRF Customs manages projects, clients, and custom home construction.
                             </p>
                         </div>
 
