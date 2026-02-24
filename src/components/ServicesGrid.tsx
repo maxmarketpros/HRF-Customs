@@ -7,15 +7,19 @@ import {
     ShovelIcon,
     ClipboardIcon,
     ArrowRightIcon,
+    DropletIcon,
+    CalculatorIcon,
+    UsersIcon,
+    MapPinIcon
 } from "./icons";
 
 const services = [
     {
         icon: HomeIcon,
-        title: "Custom Home Building",
+        title: "Custom Home Builder",
         description:
             "Full project delivery from design coordination through final walkthrough. We lead every phase of your custom home build with clear accountability and direct communication.",
-        href: "/services/custom-home-building",
+        href: "/services/custom-home-builder",
         image: "/images/portfolio/custom-home-20230710.jpg",
     },
     {
@@ -23,40 +27,72 @@ const services = [
         title: "Luxury Custom Homes",
         description:
             "High-end residential construction with premium materials, meticulous detailing, and the level of oversight that complex builds require. Built to your exact specifications.",
-        href: "/services/luxury-custom-homes",
-        image: "/images/portfolio/luxury-home-20220914.jpg",
+        href: "/services/luxury-custom-home-builder",
+        image: "/images/services/luxury-custom-home-builder/hero.jpg",
     },
     {
         icon: RulerIcon,
-        title: "Design-Build Coordination",
+        title: "Design-Build Contractor",
         description:
             "Seamless coordination between architects, engineers, and trade partners. We manage the design-to-build transition so nothing falls through the cracks.",
-        href: "/services/design-build-coordination",
-        image: "/images/schematic.jpg",
+        href: "/services/design-build-contractor",
+        image: "/images/services/design-build-contractor/hero.jpg",
     },
     {
         icon: ClipboardIcon,
         title: "General Contracting",
         description:
-            "Complete build management including trade scheduling, inspections, budget tracking, and quality control. Owner-led oversight on every project we take on.",
-        href: "/services/general-contracting",
-        image: "/images/portfolio/general-contracting-20220421.jpg",
+            "Elite subcontractor curation, rigorous timeline enforcement, and unrelenting quality control for massive residential builds.",
+        href: "/services/general-contractor-for-custom-homes",
+        image: "/images/services/general-contractor/hero.jpg",
+    },
+    {
+        icon: CalculatorIcon,
+        title: "Preconstruction Planning",
+        description:
+            "Architectural clash detection, hard-dollar estimating, brutal value-engineering, and managing permitting bureaucracy.",
+        href: "/services/preconstruction-planning",
+        image: "/images/services/preconstruction-planning/grid.jpg",
+    },
+    {
+        icon: UsersIcon,
+        title: "Project Management",
+        description:
+            "Macro-level supply chain procurement, daily digital field logs, and absolute financial transparency for out-of-state remote clients.",
+        href: "/services/project-management",
+        image: "/images/services/project-management/hero.jpg",
     },
     {
         icon: HammerIcon,
-        title: "Framing",
+        title: "Framing Contractors",
         description:
-            "Structural framing and envelope execution for residential builds. Precision framing that meets engineering specs and sets the stage for a solid, lasting structure.",
-        href: "/services/framing",
-        image: "/images/framing/framing-01.jpg",
+            "Heavy timber structural integrity, millimeter execution tolerances, and architectural compliance for complex custom rooflines.",
+        href: "/services/framing-contractors",
+        image: "/images/services/framing-contractor/hero.jpg",
+    },
+    {
+        icon: DropletIcon,
+        title: "Concrete Services",
+        description:
+            "Deep foundational excellence, multi-tiered structural retaining walls, and high-psi mixes designed for volatile mountain slopes.",
+        href: "/services/concrete-services",
+        image: "/images/services/concrete-services/hero.jpg",
     },
     {
         icon: ShovelIcon,
-        title: "Excavation and Concrete",
+        title: "Excavation Work",
         description:
-            "Site work, excavation, grading, and concrete foundation services. We handle the critical groundwork that every successful build depends on.",
-        href: "/services/excavation-and-concrete",
-        image: "/images/foundations/foundation-01.jpg",
+            "Topographical analysis, aggressive site clearing, deep utility trenching, and the critical importance of defensive grading.",
+        href: "/services/excavation-work",
+        image: "/images/services/excavation-work/hero.jpg",
+    },
+    {
+        icon: MapPinIcon,
+        title: "Home Build Consultation",
+        description:
+            "Advisory services to vet unbuildable architectural prints, confirm raw dirt feasibility before purchase, and provide budget realities.",
+        href: "/services/home-build-consultation",
+        image: "/images/services/home-build-consultation/grid.jpg",
     },
 ];
 

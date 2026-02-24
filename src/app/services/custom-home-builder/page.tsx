@@ -69,7 +69,7 @@ export default function ParadiseCustomHomeBuilder() {
             <Header />
 
             {/* 1. HERO SECTION */}
-            <section className="relative w-full h-[60vh] min-h-[500px] lg:h-[70vh] flex items-center pt-32 lg:pt-40">
+            <section className="relative w-full min-h-[60vh] md:min-h-[500px] lg:min-h-[70vh] flex items-center pt-36 pb-24 lg:pt-40 lg:pb-0">
                 <Image
                     src="/images/portfolio/custom-home-20230710.jpg"
                     alt="Premium custom home in Paradise, UT built by HRF Customs"
