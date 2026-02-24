@@ -44,7 +44,7 @@ export default function HeroVideo() {
                             fontFamily: "var(--font-outfit), system-ui, sans-serif",
                         }}
                     >
-                        Trusted Custom Home Builder in Paradise, UT
+                        Trusted Custom Home Builder in <span className="whitespace-nowrap">Paradise, UT</span>
                     </h1>
 
                     <p
