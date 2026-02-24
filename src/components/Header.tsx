@@ -108,7 +108,7 @@ export default function Header() {
 
     return (
         <header
-            className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled
+            className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled || isMobileMenuOpen
                 ? "bg-white/95 backdrop-blur-md shadow-sm py-2"
                 : "bg-transparent py-4"
                 }`}
@@ -122,7 +122,7 @@ export default function Header() {
                             alt="HRF Customs colored logo"
                             fill
                             sizes="(max-width: 768px) 150px, (max-width: 1024px) 200px, 220px"
-                            className={`object-contain object-left transition-opacity duration-300 ${isScrolled ? "opacity-100" : "opacity-0"
+                            className={`object-contain object-left transition-opacity duration-300 ${isScrolled || isMobileMenuOpen ? "opacity-100" : "opacity-0"
                                 }`}
                             priority
                         />
@@ -131,7 +131,7 @@ export default function Header() {
                             alt="HRF Customs white logo"
                             fill
                             sizes="(max-width: 768px) 150px, (max-width: 1024px) 200px, 220px"
-                            className={`object-contain object-left transition-opacity duration-300 ${isScrolled ? "opacity-0" : "opacity-100"
+                            className={`object-contain object-left transition-opacity duration-300 ${isScrolled || isMobileMenuOpen ? "opacity-0" : "opacity-100"
                                 }`}
                             priority
                         />
@@ -143,7 +143,7 @@ export default function Header() {
                         <div key={link.label} className="relative group">
                             <a
                                 href={link.href}
-                                className={`text-[13px] tracking-widest font-bold uppercase transition-colors flex items-center gap-1.5 py-4 ${isScrolled
+                                className={`text-[13px] tracking-widest font-bold uppercase transition-colors flex items-center gap-1.5 py-4 ${isScrolled || isMobileMenuOpen
                                     ? "text-[var(--color-neutral-600)] hover:text-[var(--color-primary)]"
                                     : "text-white/90 hover:text-white"
                                     }`}
@@ -204,7 +204,7 @@ export default function Header() {
                 <div className="hidden lg:flex items-center gap-4 shrink-0 pl-4">
                     <a
                         href="tel:4357600279"
-                        className={`flex items-center gap-1.5 text-sm font-bold transition-colors ${isScrolled
+                        className={`flex items-center gap-1.5 text-sm font-bold transition-colors ${isScrolled || isMobileMenuOpen
                             ? "text-[var(--color-neutral-800)] hover:text-[var(--color-primary)]"
                             : "text-white hover:text-[var(--color-primary-light)]"
                             }`}
@@ -214,7 +214,7 @@ export default function Header() {
                     </a>
                     <a
                         href="/contact"
-                        className={`btn-primary text-[13px] !py-2.5 !px-5 shadow-lg ${!isScrolled
+                        className={`btn-primary text-[13px] !py-2.5 !px-5 shadow-lg ${!(isScrolled || isMobileMenuOpen)
                             ? "!bg-white !text-[var(--color-primary)] hover:!bg-[var(--color-neutral-100)]"
                             : ""
                             }`}
@@ -225,7 +225,7 @@ export default function Header() {
 
                 <button
                     onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                    className={`xl:hidden p-2 transition-colors ${isScrolled ? "text-[var(--color-neutral-800)]" : "text-white"
+                    className={`xl:hidden p-2 transition-colors relative z-[60] cursor-pointer ${isScrolled || isMobileMenuOpen ? "text-[var(--color-neutral-800)]" : "text-white"
                         }`}
                     aria-label="Toggle menu"
                 >
@@ -234,7 +234,7 @@ export default function Header() {
             </div>
 
             {isMobileMenuOpen && (
-                <div className="xl:hidden fixed inset-0 top-[70px] bg-white z-40 overflow-y-auto">
+                <div className="xl:hidden fixed inset-0 top-[62px] bg-white z-40 overflow-y-auto">
                     <div className="page-container py-8 flex flex-col gap-1">
                         {navLinks.map((link) => (
                             <div key={link.label}>
