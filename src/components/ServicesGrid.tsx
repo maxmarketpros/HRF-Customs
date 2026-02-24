@@ -36,7 +36,7 @@ const services = [
         description:
             "Seamless coordination between architects, engineers, and trade partners. We manage the design-to-build transition so nothing falls through the cracks.",
         href: "/services/design-build-contractor",
-        image: "/images/services/design-build-contractor/hero.jpg",
+        image: "/images/services/design-build-contractor/grid.jpg",
     },
     {
         icon: ClipboardIcon,
