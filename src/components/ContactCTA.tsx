@@ -84,7 +84,7 @@ export default function ContactCTA() {
                             <h3 className="text-2xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-6 border-b border-[var(--color-neutral-200)] pb-4 mt-8 lg:mt-0">
                                 Project Intake Form
                             </h3>
-                            <div className="bg-[var(--color-neutral-50)] border border-[var(--color-neutral-200)] p-0 sm:p-2 lg:p-4 w-full flex-grow min-h-[695px] relative rounded-md overflow-hidden">
+                            <div className="bg-[var(--color-neutral-50)] border border-[var(--color-neutral-200)] p-0 sm:p-2 lg:p-4 w-full flex-grow min-h-[850px] relative rounded-md overflow-hidden">
                                 <iframe
                                     src="https://api.leadconnectorhq.com/widget/form/EBindBDKViBbdpeH85TF"
                                     style={{ width: "100%", height: "100%", border: "none" }}
@@ -97,7 +97,7 @@ export default function ContactCTA() {
                                     data-deactivation-type="neverDeactivate"
                                     data-deactivation-value=""
                                     data-form-name="WebSite Form Template"
-                                    data-height="695"
+                                    data-height="850"
                                     data-layout-iframe-id="inline-EBindBDKViBbdpeH85TF"
                                     data-form-id="EBindBDKViBbdpeH85TF"
                                     title="WebSite Form Template"
