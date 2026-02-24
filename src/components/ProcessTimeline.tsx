@@ -11,102 +11,113 @@ const steps = [
     {
         number: "01",
         icon: UsersIcon,
-        title: "Consultation",
+        title: "Consultation & Vision Setting",
         description:
-            "We start with a conversation about your goals, your land, your budget range, and your timeline expectations. No pressure and no obligations. This is where we determine if HRF Customs is the right fit for your project.",
+            "A candid conversation about goals, land, budget, and timelines. We determine if our owner-led approach is the right fit for your custom build with zero pressure.",
     },
     {
         number: "02",
         icon: SearchIcon,
-        title: "Site and Plans Review",
+        title: "Site & Engineering Review",
         description:
-            "We review your building site, existing plans or concepts, and any engineering or survey work that has been completed. If additional professional services are needed, we help coordinate those relationships.",
+            "Deep analysis of your building site, conceptual plans, and geotechnical data. If you need architects or engineers, we coordinate those critical relationships immediately.",
     },
     {
         number: "03",
         icon: ClipboardIcon,
         title: "Preconstruction Planning",
         description:
-            "This is where the real work begins. We develop a detailed scope of work, identify trade partner needs, map out the sequencing, and address any site or permitting requirements specific to your location.",
+            "The most critical phase. We write a detailed scope of work, map out trade sequencing, and tackle permitting roadblocks before they ever hit the actual job site.",
     },
     {
         number: "04",
         icon: DollarIcon,
-        title: "Budget and Schedule Baseline",
+        title: "Transparent Budgeting",
         description:
-            "We build a transparent budget with line item visibility and a project schedule with clear milestones. You will know what to expect, when to expect it, and how your money is being allocated before we break ground.",
+            "You receive a transparent, line-item budget and a highly structured project schedule. You'll know exactly where every dollar goes before ground is broken.",
     },
     {
         number: "05",
         icon: HardHatIcon,
-        title: "Build Phase Management",
+        title: "Owner-Led Build Phase",
         description:
-            "During construction, we manage trade coordination, scheduling, inspections, and quality control on a daily basis. You receive regular updates and have direct access to the project lead throughout the entire build.",
+            "We manage daily trade coordination, rigorous inspections, and relentless quality control. You have direct access to the project owner throughout the massive undertaking.",
     },
     {
         number: "06",
         icon: FileCheckIcon,
-        title: "Closeout and Handoff",
+        title: "Closeout & Final Handoff",
         description:
-            "We conduct a thorough walkthrough, address any remaining items, compile project documentation, and hand over your completed home. We also outline what to expect in terms of ongoing maintenance and warranty coverage from trade partners.",
+            "A comprehensive final walkthrough, completely compiled project documentation, and handover of your new custom home. We stand by our work long after you move in.",
     },
 ];
 
 export default function ProcessTimeline() {
     return (
-        <section id="process" className="section-padding section-alt">
-            <div className="page-container">
-                <div className="text-center max-w-2xl mx-auto mb-16">
-                    <span className="section-label">Our Process</span>
-                    <h3>Custom Home Building in Paradise, UT: From Concept to Completion</h3>
-                    <p className="mt-4" style={{ color: "var(--color-neutral-600)" }}>
-                        Every HRF Customs project follows a proven process that keeps your
-                        build organized, transparent, and on track. Here is how we take your
-                        project from initial conversation to completed home.
+        <section id="process" className="py-24 lg:py-32 bg-white relative overflow-hidden">
+            {/* Soft Background Accent */}
+            <div className="absolute top-0 right-0 w-full h-[500px] bg-gradient-to-b from-[var(--color-primary-light)]/5 to-transparent pointer-events-none"></div>
+
+            <div className="page-container relative z-10">
+                <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-24">
+                    <div className="inline-flex items-center px-4 py-1.5 bg-[var(--color-primary)]/10 text-[var(--color-primary)] text-xs font-bold uppercase tracking-[0.2em] rounded mb-6 w-max border border-[var(--color-primary)]/20 mx-auto">
+                        Our Process
+                    </div>
+
+                    <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6 mx-auto">
+                        From Concept to Completion
+                    </h2>
+
+                    <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed mx-auto max-w-2xl">
+                        Every highly-complex HRF Customs project is governed by a meticulous, proven framework. Our six-step process maintains extreme accountability, transparency, and schedule precision.
                     </p>
                 </div>
 
-                <div className="max-w-4xl mx-auto">
-                    <div className="space-y-0">
+                <div className="max-w-6xl mx-auto">
+                    {/* Desktop/Tablet Grid View */}
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-12">
                         {steps.map((step, index) => (
-                            <div key={step.number} className="flex gap-6 md:gap-8">
-                                {/* Timeline rail */}
-                                <div className="flex flex-col items-center shrink-0">
-                                    <div
-                                        className="w-12 h-12 rounded-full flex items-center justify-center shrink-0"
-                                        style={{ backgroundColor: "var(--color-primary)", color: "#ffffff" }}
-                                    >
-                                        <step.icon size={20} />
-                                    </div>
-                                    {index < steps.length - 1 && (
-                                        <div
-                                            className="w-px flex-1 min-h-[2rem]"
-                                            style={{ backgroundColor: "var(--color-neutral-200)" }}
-                                        />
-                                    )}
+                            <div key={step.number} className="relative group p-8 bg-white border border-[var(--color-neutral-100)] rounded-3xl shadow-[0_10px_40px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)] transition-all duration-500 flex flex-col items-start overflow-hidden hover:-translate-y-2">
+
+                                {/* Background Number Watermark */}
+                                <div className="absolute -top-6 -right-6 text-9xl font-black font-[family-name:var(--font-outfit)] text-[var(--color-neutral-50)] group-hover:text-[var(--color-primary-light)]/5 transition-colors duration-500 pointer-events-none select-none">
+                                    {step.number}
                                 </div>
 
-                                {/* Content */}
-                                <div className="pb-10">
-                                    <span
-                                        className="text-xs font-bold tracking-wider"
-                                        style={{ color: "var(--color-primary)" }}
-                                    >
-                                        STEP {step.number}
+                                {/* Header (Icon & Label) */}
+                                <div className="flex items-center gap-4 mb-6 relative z-10 w-full">
+                                    <div className="w-12 h-12 rounded-xl bg-[var(--color-primary)] text-white flex items-center justify-center shrink-0 shadow-md group-hover:scale-110 transition-transform duration-300">
+                                        <step.icon size={22} />
+                                    </div>
+                                    <span className="text-[10px] font-bold tracking-[0.2em] text-[var(--color-primary-light)] uppercase border border-[var(--color-primary-light)]/30 px-3 py-1 rounded-full">
+                                        Step {step.number}
                                     </span>
-                                    <h4 className="mt-1 mb-2">{step.title}</h4>
-                                    <p className="text-sm" style={{ color: "var(--color-neutral-600)" }}>
+                                </div>
+
+                                {/* Body */}
+                                <div className="relative z-10">
+                                    <h4 className="text-xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-3 leading-snug">
+                                        {step.title}
+                                    </h4>
+                                    <p className="text-[var(--color-neutral-600)] text-sm leading-relaxed">
                                         {step.description}
                                     </p>
                                 </div>
+
+                                {/* Bottom Accent line on hover */}
+                                <div className="absolute bottom-0 left-0 w-0 h-1 bg-[var(--color-primary)] group-hover:w-full transition-all duration-700 ease-out"></div>
                             </div>
                         ))}
                     </div>
                 </div>
 
-                <div className="text-center mt-8">
-                    <a href="#contact" className="btn-primary">
-                        Start With Step One
+                <div className="text-center mt-16 lg:mt-20">
+                    <a href="/contact" className="btn-primary inline-flex items-center gap-2 group shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all">
+                        Initiate A Project
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="group-hover:translate-x-1 transition-transform">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
                     </a>
                 </div>
             </div>

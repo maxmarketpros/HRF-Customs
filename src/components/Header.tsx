@@ -8,7 +8,7 @@ const navLinks = [
     { label: "Services", href: "#services" },
     { label: "Areas", href: "#local-knowledge" },
     { label: "Our Work", href: "#featured-work" },
-    { label: "About", href: "#hrf-standard" },
+    { label: "About", href: "#about-intro" },
     { label: "Reviews", href: "#testimonials" },
     { label: "FAQ", href: "#faq" },
     { label: "Contact", href: "#contact" },
@@ -20,8 +20,9 @@ export default function Header() {
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsScrolled(window.scrollY > 80);
+            setIsScrolled(window.scrollY > 50);
         };
+        handleScroll(); // Check on initial load
         window.addEventListener("scroll", handleScroll, { passive: true });
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
@@ -39,54 +40,80 @@ export default function Header() {
 
     return (
         <header
-            className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled
-                    ? "bg-white/95 backdrop-blur-md shadow-sm py-2"
-                    : "bg-white py-4"
+            className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled
+                ? "bg-white/95 backdrop-blur-md shadow-sm py-2"
+                : "bg-transparent py-4"
                 }`}
         >
             <div className="page-container flex items-center justify-between">
                 <a href="/" className="flex items-center shrink-0">
-                    <Image
-                        src="/images/logo.png"
-                        alt="HRF Customs logo"
-                        width={isScrolled ? 140 : 160}
-                        height={isScrolled ? 46 : 52}
-                        className="transition-all duration-300"
-                        priority
-                    />
+                    {/* When transparent, use the white (inverted) logo. When scrolled, use the colored logo. */}
+                    <div className="relative w-[180px] h-[55px] md:w-[240px] md:h-[73px] lg:w-[280px] lg:h-[86px]">
+                        <Image
+                            src="/images/logo.png"
+                            alt="HRF Customs colored logo"
+                            fill
+                            sizes="(max-width: 768px) 180px, (max-width: 1024px) 240px, 280px"
+                            className={`object-contain object-left transition-opacity duration-300 ${isScrolled ? "opacity-100" : "opacity-0"
+                                }`}
+                            priority
+                        />
+                        <Image
+                            src="/images/logo-inverted.png"
+                            alt="HRF Customs white logo"
+                            fill
+                            sizes="(max-width: 768px) 180px, (max-width: 1024px) 240px, 280px"
+                            className={`object-contain object-left transition-opacity duration-300 ${isScrolled ? "opacity-0" : "opacity-100"
+                                }`}
+                            priority
+                        />
+                    </div>
                 </a>
 
-                <nav className="hidden lg:flex items-center gap-8">
+                <nav className="hidden lg:flex items-center gap-7">
                     {navLinks.map((link) => (
                         <a
                             key={link.href}
                             href={link.href}
-                            className="text-sm font-medium text-[var(--color-neutral-600)] hover:text-[var(--color-primary)] transition-colors tracking-wide"
+                            className={`text-sm font-semibold tracking-wide transition-colors ${isScrolled
+                                ? "text-[var(--color-neutral-600)] hover:text-[var(--color-primary)]"
+                                : "text-white/90 hover:text-white"
+                                }`}
                         >
                             {link.label}
                         </a>
                     ))}
                 </nav>
 
-                <div className="hidden lg:flex items-center gap-3">
+                <div className="hidden lg:flex items-center gap-4">
                     <a
                         href="tel:4357600279"
-                        className="flex items-center gap-1.5 text-sm font-medium text-[var(--color-neutral-600)] hover:text-[var(--color-primary)] transition-colors"
+                        className={`flex items-center gap-1.5 text-sm font-bold transition-colors ${isScrolled
+                            ? "text-[var(--color-neutral-800)] hover:text-[var(--color-primary)]"
+                            : "text-white hover:text-[var(--color-primary-light)]"
+                            }`}
                     >
                         <PhoneIcon size={16} />
                         (435) 760 0279
                     </a>
-                    <a href="#contact" className="btn-primary text-sm !py-2.5 !px-5">
+                    <a
+                        href="#contact"
+                        className={`btn-primary text-sm !py-2 !px-4 ${!isScrolled
+                            ? "!bg-white !text-[var(--color-primary)] hover:!bg-[var(--color-neutral-100)]"
+                            : ""
+                            }`}
+                    >
                         Schedule Consultation
                     </a>
                 </div>
 
                 <button
                     onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                    className="lg:hidden p-2 text-[var(--color-neutral-700)]"
+                    className={`lg:hidden p-2 transition-colors ${isScrolled ? "text-[var(--color-neutral-800)]" : "text-white"
+                        }`}
                     aria-label="Toggle menu"
                 >
-                    {isMobileMenuOpen ? <XIcon size={24} /> : <MenuIcon size={24} />}
+                    {isMobileMenuOpen ? <XIcon size={26} /> : <MenuIcon size={26} />}
                 </button>
             </div>
 

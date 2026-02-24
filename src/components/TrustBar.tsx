@@ -2,75 +2,48 @@ import { MapPinIcon, ClockIcon, PhoneIcon, EmailIcon } from "./icons";
 
 export default function TrustBar() {
     return (
-        <section className="bg-white border-y border-[var(--color-neutral-200)]">
-            <div className="page-container py-6">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                    <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 rounded bg-[var(--color-neutral-50)] flex items-center justify-center text-[var(--color-primary)] shrink-0">
+        <section className="bg-[var(--color-primary-dark)] text-white border-b border-white/10">
+            <div className="page-container py-4">
+                <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-8 max-w-6xl mx-auto">
+
+                    {/* Location */}
+                    <div className="flex items-center gap-3 w-full md:w-auto justify-center md:justify-start">
+                        <div className="text-[var(--color-primary-light)]">
                             <MapPinIcon size={20} />
                         </div>
-                        <div>
-                            <p className="text-sm font-semibold text-[var(--color-neutral-800)]">
-                                8536 S 150 E
-                            </p>
-                            <p className="text-xs text-[var(--color-neutral-500)]">
-                                Paradise, UT 84328
-                            </p>
+                        <div className="text-sm font-medium tracking-wide">
+                            8536 S 150 E, Paradise, UT
                         </div>
                     </div>
 
-                    <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 rounded bg-[var(--color-neutral-50)] flex items-center justify-center text-[var(--color-primary)] shrink-0">
+                    {/* Divider (Hidden on mobile) */}
+                    <div className="hidden md:block w-px h-6 bg-white/20"></div>
+
+                    {/* Hours */}
+                    <div className="flex items-center gap-3 w-full md:w-auto justify-center md:justify-start">
+                        <div className="text-[var(--color-primary-light)]">
                             <ClockIcon size={20} />
                         </div>
-                        <div>
-                            <p className="text-sm font-semibold text-[var(--color-neutral-800)]">
-                                Mon to Sat: 8 AM to 6 PM
-                            </p>
-                            <p className="text-xs text-[var(--color-neutral-500)]">
-                                Closed Sunday
-                            </p>
+                        <div className="text-sm font-medium tracking-wide">
+                            Mon-Sat: 8 AM - 6 PM
                         </div>
                     </div>
 
-                    <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 rounded bg-[var(--color-neutral-50)] flex items-center justify-center text-[var(--color-primary)] shrink-0">
-                            <PhoneIcon size={20} />
-                        </div>
-                        <div>
-                            <a
-                                href="tel:4357600279"
-                                className="text-sm font-semibold text-[var(--color-neutral-800)] hover:text-[var(--color-primary)] transition-colors"
-                            >
-                                (435) 760 0279
-                            </a>
-                            <p className="text-xs text-[var(--color-neutral-500)]">
-                                Call for a consultation
-                            </p>
-                        </div>
+                    {/* Divider (Hidden on mobile) */}
+                    <div className="hidden md:block w-px h-6 bg-white/20"></div>
+
+                    {/* Phone Container */}
+                    <div className="flex flex-row items-center gap-6 w-full md:w-auto justify-center md:justify-start">
+                        <a
+                            href="tel:4357600279"
+                            className="flex items-center gap-2 text-sm font-medium tracking-wide hover:text-[var(--color-primary-light)] transition-colors"
+                        >
+                            <PhoneIcon size={20} className="text-[var(--color-primary-light)]" />
+                            Call (435) 760 0279
+                        </a>
                     </div>
 
-                    <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 rounded bg-[var(--color-neutral-50)] flex items-center justify-center text-[var(--color-primary)] shrink-0">
-                            <EmailIcon size={20} />
-                        </div>
-                        <div>
-                            <a
-                                href="mailto:highridgeframing@gmail.com"
-                                className="text-sm font-semibold text-[var(--color-neutral-800)] hover:text-[var(--color-primary)] transition-colors"
-                            >
-                                highridgeframing@gmail.com
-                            </a>
-                            <p className="text-xs text-[var(--color-neutral-500)]">
-                                Email us anytime
-                            </p>
-                        </div>
-                    </div>
                 </div>
-
-                <p className="text-center text-xs text-[var(--color-neutral-400)] mt-4 pt-4 border-t border-[var(--color-neutral-100)]">
-                    Serving homeowners and landowners since 2017
-                </p>
             </div>
         </section>
     );

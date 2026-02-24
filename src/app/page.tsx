@@ -1,4 +1,3 @@
-import AnnouncementBar from "@/components/AnnouncementBar";
 import Header from "@/components/Header";
 import HeroVideo from "@/components/HeroVideo";
 import TrustBar from "@/components/TrustBar";
@@ -17,7 +16,6 @@ import MobileCallButton from "@/components/MobileCallButton";
 export default function HomePage() {
   return (
     <>
-      <AnnouncementBar />
       <Header />
       <main>
         <HeroVideo />

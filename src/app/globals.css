@@ -2,10 +2,10 @@
 
 @layer base {
   :root {
-    --color-primary: #1a3f6f;
-    --color-primary-light: #3b82c4;
-    --color-primary-dark: #0f2847;
-    --color-accent: #2563eb;
+    --color-primary: #2597CB;
+    --color-primary-light: #5bb6e5;
+    --color-primary-dark: #1a6f99;
+    --color-accent: #2597CB;
     --color-neutral-50: #fafafa;
     --color-neutral-100: #f5f5f5;
     --color-neutral-200: #e5e5e5;
