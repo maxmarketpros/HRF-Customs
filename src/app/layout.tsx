@@ -17,6 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://hrfcustoms.com"),
   title:
     "HRF Customs | Trusted Custom Home Builder in Paradise, UT | Northern Utah General Contractor",
   description:
@@ -34,8 +35,28 @@ export const metadata: Metadata = {
     title: "HRF Customs | Trusted Custom Home Builder in Paradise, UT",
     description:
       "Owner led custom home building and general contracting in Northern Utah, Southern Idaho, and Western Wyoming. 15 plus years of experience. 250 plus happy customers.",
+    url: "https://hrfcustoms.com",
+    siteName: "HRF Customs",
+    images: [
+      {
+        url: "/images/logo.png", // Assuming this exists, or use a specific OG image if available
+        width: 1200,
+        height: 630,
+        alt: "HRF Customs Logo",
+      },
+    ],
     type: "website",
     locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "HRF Customs | Trusted Custom Home Builder in Paradise, UT",
+    description:
+      "Owner led custom home building and general contracting in Northern Utah, Southern Idaho, and Western Wyoming. 15 plus years of experience. 250 plus happy customers.",
+    images: ["/images/logo.png"],
+  },
+  icons: {
+    icon: "/favicon.ico",
   },
 };
 
@@ -44,67 +65,80 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": "https://hrfcustoms.com",
-    name: "HRF Customs",
-    description:
-      "Custom home builder and general contractor serving Northern Utah, Southern Idaho, and Western Wyoming. Specializing in custom home building, framing, excavation, and concrete services.",
-    url: "https://hrfcustoms.com",
-    telephone: "+14357600279",
-    email: "highridgeframing@gmail.com",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "8536 S 150 E",
-      addressLocality: "Paradise",
-      addressRegion: "UT",
-      postalCode: "84328",
-      addressCountry: "US",
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: 41.5685,
-      longitude: -111.8338,
-    },
-    openingHoursSpecification: {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
+  const jsonLdData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://hrfcustoms.com",
+      name: "HRF Customs",
+      description:
+        "Custom home builder and general contractor serving Northern Utah, Southern Idaho, and Western Wyoming. Specializing in custom home building, framing, excavation, and concrete services.",
+      url: "https://hrfcustoms.com",
+      telephone: "+14357600279",
+      email: "highridgeframing@gmail.com",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "8536 S 150 E",
+        addressLocality: "Paradise",
+        addressRegion: "UT",
+        postalCode: "84328",
+        addressCountry: "US",
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 41.5685,
+        longitude: -111.8338,
+      },
+      openingHoursSpecification: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+        ],
+        opens: "08:00",
+        closes: "18:00",
+      },
+      areaServed: [
+        {
+          "@type": "State",
+          name: "Utah",
+        },
+        {
+          "@type": "State",
+          name: "Idaho",
+        },
+        {
+          "@type": "State",
+          name: "Wyoming",
+        },
       ],
-      opens: "08:00",
-      closes: "18:00",
+      sameAs: [],
+      priceRange: "$$$$",
+      image: "https://hrfcustoms.com/images/logo.png",
     },
-    areaServed: [
-      {
-        "@type": "State",
-        name: "Utah",
-      },
-      {
-        "@type": "State",
-        name: "Idaho",
-      },
-      {
-        "@type": "State",
-        name: "Wyoming",
-      },
-    ],
-    sameAs: [],
-    priceRange: "$$$$",
-    image: "https://hrfcustoms.com/images/logo.png",
-  };
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://hrfcustoms.com/#website",
+      url: "https://hrfcustoms.com",
+      name: "HRF Customs",
+      description: "Custom Home Builder and General Contractor in Northern Utah.",
+      publisher: {
+        "@id": "https://hrfcustoms.com",
+      }
+    }
+  ];
 
   return (
     <html lang="en" className={`${outfit.variable} ${inter.variable}`}>
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdData) }}
         />
       </head>
       <body>{children}</body>
