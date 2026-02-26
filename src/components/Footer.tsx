@@ -5,9 +5,6 @@ const companyLinks = [
     { label: "Home", href: "/" },
     { label: "About HRF", href: "/about" },
     { label: "Our Process", href: "/process" },
-    { label: "Our Work", href: "/portfolio" },
-    { label: "Gallery", href: "/gallery" },
-    { label: "Testimonials", href: "/testimonials" },
     { label: "FAQ", href: "/faq" },
 ];
 

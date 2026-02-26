@@ -339,9 +339,6 @@ export default function AboutPage() {
                                     <h3 className="text-2xl font-bold font-[family-name:var(--font-outfit)] text-white mb-1">Mountain Modern Estate</h3>
                                     <p className="text-[var(--color-primary-light)] font-bold tracking-widest text-[11px] uppercase">01 // High Elevation Completion</p>
                                 </div>
-                                <a href="/portfolio" className="ml-auto w-12 h-12 rounded-full bg-white flex items-center justify-center text-[var(--color-neutral-900)] hover:bg-[var(--color-primary)] hover:text-white transition-colors">
-                                    <ArrowRightIcon size={20} />
-                                </a>
                             </div>
                         </div>
 
@@ -453,6 +450,6 @@ export default function AboutPage() {
             <ContactCTA />
 
             <Footer />
-        </main>
+        </main >
     );
 }

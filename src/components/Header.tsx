@@ -69,16 +69,7 @@ const navLinks = [
             }
         ]
     },
-    {
-        label: "More",
-        href: "#",
-        dropdown: [
-            { label: "Portfolio", href: "/portfolio" },
-            { label: "Gallery", href: "/gallery" },
-            { label: "Testimonials", href: "/testimonials" },
-            { label: "FAQ", href: "/faq" },
-        ]
-    },
+    { label: "FAQ", href: "/faq" },
     { label: "Contact", href: "/contact" },
 ];
 
@@ -150,7 +141,7 @@ export default function Header() {
                                         }`}
                                 >
                                     {link.label}
-                                    {(link.megaMenu || link.dropdown) && (
+                                    {link.megaMenu && (
                                         <svg className="w-3.5 h-3.5 opacity-70 transition-transform group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
                                         </svg>
@@ -183,21 +174,7 @@ export default function Header() {
                                     </div>
                                 )}
 
-                                {link.dropdown && (
-                                    <div className="absolute top-full -left-4 pt-2 w-[240px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 z-50">
-                                        <div className="bg-white/95 backdrop-blur-xl rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-[var(--color-neutral-100)] overflow-hidden py-3 text-left flex flex-col">
-                                            {link.dropdown.map(sublink => (
-                                                <a
-                                                    key={sublink.href}
-                                                    href={sublink.href}
-                                                    className="block px-6 py-2.5 text-[13px] font-semibold text-[var(--color-neutral-600)] hover:text-[var(--color-primary)] hover:bg-[var(--color-neutral-50)] transition-colors leading-snug"
-                                                >
-                                                    {sublink.label}
-                                                </a>
-                                            ))}
-                                        </div>
-                                    </div>
-                                )}
+
                             </div>
                         ))}
                     </nav>
@@ -243,7 +220,7 @@ export default function Header() {
                             <div key={link.label}>
                                 <a
                                     href={link.href}
-                                    onClick={() => !link.megaMenu && !link.dropdown && setIsMobileMenuOpen(false)}
+                                    onClick={() => !link.megaMenu && setIsMobileMenuOpen(false)}
                                     className="block py-3 px-4 text-lg font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-800)] hover:text-[var(--color-primary)] hover:bg-[var(--color-neutral-50)] rounded-xl transition-colors"
                                 >
                                     {link.label}
@@ -271,20 +248,7 @@ export default function Header() {
                                         ))}
                                     </div>
                                 )}
-                                {link.dropdown && (
-                                    <div className="pl-6 border-l-2 border-[var(--color-neutral-100)] ml-6 mt-1 mb-2 flex flex-col gap-0.5">
-                                        {link.dropdown.map(sublink => (
-                                            <a
-                                                key={sublink.href}
-                                                href={sublink.href}
-                                                onClick={() => setIsMobileMenuOpen(false)}
-                                                className="block py-2 px-4 text-[15px] font-medium text-[var(--color-neutral-600)] hover:text-[var(--color-primary)] hover:bg-[var(--color-neutral-50)] rounded-lg transition-colors"
-                                            >
-                                                {sublink.label}
-                                            </a>
-                                        ))}
-                                    </div>
-                                )}
+
                             </div>
                         ))}
                         <hr className="my-6 border-[var(--color-neutral-200)]" />

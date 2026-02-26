@@ -19,8 +19,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/areas/western-wyoming',
         '/contact',
         '/faq',
-        '/gallery',
-        '/portfolio',
         '/process',
         '/services',
         '/services/concrete-services',
@@ -33,7 +31,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/services/luxury-custom-home-builder',
         '/services/preconstruction-planning',
         '/services/project-management',
-        '/testimonials',
     ]
 
     return routes.map((route) => ({
