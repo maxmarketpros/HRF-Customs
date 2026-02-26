@@ -20,7 +20,7 @@ const services = [
         description:
             "Full project delivery from design coordination through final walkthrough. We lead every phase of your custom home build with clear accountability and direct communication.",
         href: "/services/custom-home-builder",
-        image: "/images/portfolio/custom-home-20230710.jpg",
+        image: "/images/portfolio/custom-home-20230710.webp",
     },
     {
         icon: BuildingIcon,
@@ -28,7 +28,7 @@ const services = [
         description:
             "High-end residential construction with premium materials, meticulous detailing, and the level of oversight that complex builds require. Built to your exact specifications.",
         href: "/services/luxury-custom-home-builder",
-        image: "/images/services/luxury-custom-home-builder/hero.jpg",
+        image: "/images/services/luxury-custom-home-builder/hero.webp",
     },
     {
         icon: RulerIcon,
@@ -36,7 +36,7 @@ const services = [
         description:
             "Seamless coordination between architects, engineers, and trade partners. We manage the design-to-build transition so nothing falls through the cracks.",
         href: "/services/design-build-contractor",
-        image: "/images/services/design-build-contractor/grid.jpg",
+        image: "/images/services/design-build-contractor/grid.webp",
     },
     {
         icon: ClipboardIcon,
@@ -44,7 +44,7 @@ const services = [
         description:
             "Elite subcontractor curation, rigorous timeline enforcement, and unrelenting quality control for massive residential builds.",
         href: "/services/general-contractor-for-custom-homes",
-        image: "/images/services/general-contractor/hero.jpg",
+        image: "/images/services/general-contractor/hero.webp",
     },
     {
         icon: CalculatorIcon,
@@ -52,7 +52,7 @@ const services = [
         description:
             "Architectural clash detection, hard-dollar estimating, brutal value-engineering, and managing permitting bureaucracy.",
         href: "/services/preconstruction-planning",
-        image: "/images/services/preconstruction-planning/grid.jpg",
+        image: "/images/services/preconstruction-planning/grid.webp",
     },
     {
         icon: UsersIcon,
@@ -60,7 +60,7 @@ const services = [
         description:
             "Macro-level supply chain procurement, daily digital field logs, and absolute financial transparency for out-of-state remote clients.",
         href: "/services/project-management",
-        image: "/images/services/project-management/hero.jpg",
+        image: "/images/services/project-management/hero.webp",
     },
     {
         icon: HammerIcon,
@@ -68,7 +68,7 @@ const services = [
         description:
             "Heavy timber structural integrity, millimeter execution tolerances, and architectural compliance for complex custom rooflines.",
         href: "/services/framing-contractors",
-        image: "/images/services/framing-contractor/hero.jpg",
+        image: "/images/services/framing-contractor/hero.webp",
     },
     {
         icon: DropletIcon,
@@ -76,7 +76,7 @@ const services = [
         description:
             "Deep foundational excellence, multi-tiered structural retaining walls, and high-psi mixes designed for volatile mountain slopes.",
         href: "/services/concrete-services",
-        image: "/images/services/concrete-services/hero.jpg",
+        image: "/images/services/concrete-services/hero.webp",
     },
     {
         icon: ShovelIcon,
@@ -84,7 +84,7 @@ const services = [
         description:
             "Topographical analysis, aggressive site clearing, deep utility trenching, and the critical importance of defensive grading.",
         href: "/services/excavation-work",
-        image: "/images/services/excavation-work/hero.jpg",
+        image: "/images/services/excavation-work/hero.webp",
     },
     {
         icon: MapPinIcon,
@@ -92,7 +92,7 @@ const services = [
         description:
             "Advisory services to vet unbuildable architectural prints, confirm raw dirt feasibility before purchase, and provide budget realities.",
         href: "/services/home-build-consultation",
-        image: "/images/services/home-build-consultation/grid.jpg",
+        image: "/images/services/home-build-consultation/grid.webp",
     },
 ];
 

@@ -71,7 +71,7 @@ export default function ParadiseCustomHomeBuilder() {
             {/* 1. HERO SECTION */}
             <section className="relative w-full min-h-[60vh] md:min-h-[500px] lg:min-h-[70vh] flex items-center pt-36 pb-24 lg:pt-40 lg:pb-0">
                 <Image
-                    src="/images/portfolio/custom-home-20230710.jpg"
+                    src="/images/portfolio/custom-home-20230710.webp"
                     alt="Premium custom home in Paradise, UT built by HRF Customs"
                     fill
                     className="object-cover object-center"
@@ -126,7 +126,7 @@ export default function ParadiseCustomHomeBuilder() {
                         <div className="lg:col-span-5 relative">
                             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-[var(--color-neutral-100)]">
                                 <Image
-                                    src="/images/services/paradise/finished-exterior-paradise.jpg"
+                                    src="/images/services/paradise/finished-exterior-paradise.webp"
                                     alt="Fully finished luxury custom home built by HRF Customs in Paradise, Utah"
                                     fill
                                     className="object-cover"
@@ -226,7 +226,7 @@ export default function ParadiseCustomHomeBuilder() {
                         <div className="relative order-2 lg:order-1">
                             <div className="relative aspect-square rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/10">
                                 <Image
-                                    src="/images/framing/framing-02.jpg"
+                                    src="/images/framing/framing-02.webp"
                                     alt="Advanced structural framing for a custom home in Paradise, Utah"
                                     fill
                                     className="object-cover"
@@ -293,7 +293,7 @@ export default function ParadiseCustomHomeBuilder() {
                         <div className="lg:col-span-6 relative order-2 lg:order-1">
                             <div className="relative aspect-[16/10] rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.08)] border border-[var(--color-neutral-100)]">
                                 <Image
-                                    src="/images/portfolio/premium-build-01.jpg"
+                                    src="/images/portfolio/premium-build-01.webp"
                                     alt="Architectural execution on a custom home in Northern Utah"
                                     fill
                                     className="object-cover"

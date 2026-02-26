@@ -105,7 +105,7 @@ export default function AboutPage() {
             {/* 1. HERO SECTION */}
             <section className="relative w-full min-h-[70vh] flex items-center pt-36 pb-24 lg:pt-40 lg:pb-0">
                 <Image
-                    src="/images/portfolio/luxury-home-20220914.jpg"
+                    src="/images/portfolio/luxury-home-20220914.webp"
                     alt="Commanding exterior of a massive luxury custom home built by HRF Customs"
                     fill
                     className="object-cover object-center"
@@ -147,7 +147,7 @@ export default function AboutPage() {
                         <div className="lg:col-span-5 relative order-2 lg:order-1">
                             <div className="relative aspect-[3/4] rounded-3xl overflow-hidden shadow-[0_30px_60px_rgba(0,0,0,0.15)] border border-[var(--color-neutral-200)] group">
                                 <Image
-                                    src="/images/team/builder-survey.jpg"
+                                    src="/images/team/builder-survey.webp"
                                     alt="HRF Customs leadership surveying a massive excavation layout"
                                     fill
                                     className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -251,7 +251,7 @@ export default function AboutPage() {
                         <div className="lg:col-span-6 relative">
                             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.1)] border border-[var(--color-neutral-200)] group">
                                 <Image
-                                    src="/images/team/equipment-01.jpg"
+                                    src="/images/team/equipment-01.webp"
                                     alt="HRF Customs heavy machinery executing mass excavation on a steep mountain lot"
                                     fill
                                     className="object-cover group-hover:scale-110 transition-transform duration-1000"
@@ -328,7 +328,7 @@ export default function AboutPage() {
                         {/* Huge block */}
                         <div className="md:col-span-8 md:row-span-2 relative rounded-3xl overflow-hidden group border border-[var(--color-neutral-200)] shadow-sm">
                             <Image
-                                src="/images/portfolio/finished-exterior-01.jpg"
+                                src="/images/portfolio/finished-exterior-01.webp"
                                 alt="Huge custom finished exterior built by HRF Customs"
                                 fill
                                 className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -345,7 +345,7 @@ export default function AboutPage() {
                         {/* Top right */}
                         <div className="md:col-span-4 md:row-span-1 relative rounded-3xl overflow-hidden group border border-[var(--color-neutral-200)] shadow-sm">
                             <Image
-                                src="/images/portfolio/finished-exterior-03.jpg"
+                                src="/images/portfolio/finished-exterior-03.webp"
                                 alt="Pristine architectural angles"
                                 fill
                                 className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -356,7 +356,7 @@ export default function AboutPage() {
                         {/* Bottom right */}
                         <div className="md:col-span-4 md:row-span-1 relative rounded-3xl overflow-hidden group border border-[var(--color-neutral-200)] shadow-sm">
                             <Image
-                                src="/images/portfolio/premium-build-04.jpg"
+                                src="/images/portfolio/premium-build-04.webp"
                                 alt="Timber framing masterwork"
                                 fill
                                 className="object-cover group-hover:scale-105 transition-transform duration-700"

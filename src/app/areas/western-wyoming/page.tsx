@@ -79,7 +79,7 @@ export default function WesternWyomingArea() {
             {/* 1. HERO SECTION */}
             <section className="relative w-full min-h-[60vh] md:min-h-[500px] lg:min-h-[70vh] flex items-center pt-36 pb-24 lg:pt-40 lg:pb-0">
                 <Image
-                    src="/images/areas/western-wyoming/hero.jpg"
+                    src="/images/areas/western-wyoming/hero.webp"
                     alt="Immense structural timber frame home built in Western Wyoming"
                     fill
                     className="object-cover object-center"
@@ -134,7 +134,7 @@ export default function WesternWyomingArea() {
                         <div className="lg:col-span-5 relative">
                             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.15)] border border-[var(--color-neutral-100)]">
                                 <Image
-                                    src="/images/areas/western-wyoming/local-relevance.jpg"
+                                    src="/images/areas/western-wyoming/local-relevance.webp"
                                     alt="Expertly framed luxury property in remote Western Wyoming"
                                     fill
                                     className="object-cover"
@@ -156,7 +156,7 @@ export default function WesternWyomingArea() {
                         <div className="lg:col-span-5 relative order-2 lg:order-1">
                             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-xl">
                                 <Image
-                                    src="/images/areas/western-wyoming/synergy.jpg"
+                                    src="/images/areas/western-wyoming/synergy.webp"
                                     alt="High-end finishes for a Western Wyoming custom estate"
                                     fill
                                     className="object-cover"
@@ -266,7 +266,7 @@ export default function WesternWyomingArea() {
                         <div className="relative order-2">
                             <div className="relative aspect-[4/5] lg:aspect-square rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/10">
                                 <Image
-                                    src="/images/areas/western-wyoming/structural.jpg"
+                                    src="/images/areas/western-wyoming/structural.webp"
                                     alt="Massive structural retaining walls built in Western Wyoming"
                                     fill
                                     className="object-cover"

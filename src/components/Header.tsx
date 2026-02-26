@@ -110,7 +110,7 @@ export default function Header() {
                         {/* When transparent, use the white (inverted) logo. When scrolled, use the colored logo. */}
                         <div className="relative w-[150px] h-[46px] md:w-[200px] md:h-[61px] lg:w-[220px] lg:h-[67px]">
                             <Image
-                                src="/images/logo.png"
+                                src="/images/logo.webp"
                                 alt="HRF Customs colored logo"
                                 fill
                                 sizes="(max-width: 768px) 150px, (max-width: 1024px) 200px, 220px"
@@ -119,7 +119,7 @@ export default function Header() {
                                 priority
                             />
                             <Image
-                                src="/images/logo-inverted.png"
+                                src="/images/logo-inverted.webp"
                                 alt="HRF Customs white logo"
                                 fill
                                 sizes="(max-width: 768px) 150px, (max-width: 1024px) 200px, 220px"

@@ -71,7 +71,7 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8">
                     <div className="lg:col-span-4 lg:pr-8">
                         <Image
-                            src="/images/logo-inverted.png"
+                            src="/images/logo-inverted.webp"
                             alt="HRF Customs logo"
                             width={160}
                             height={52}

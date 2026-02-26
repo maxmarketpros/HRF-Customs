@@ -10,7 +10,7 @@ export default function HeroVideo() {
                 playsInline
                 className="absolute inset-0 w-full h-full object-cover scale-105"
                 style={{ transformOrigin: "center" }}
-                poster="/images/portfolio/premium-build-01.jpg"
+                poster="/images/portfolio/premium-build-01.webp"
             >
                 <source src="/video/hero.mp4" type="video/mp4" />
             </video>

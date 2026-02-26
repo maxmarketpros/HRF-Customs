@@ -55,7 +55,7 @@ export default function ProcessPage() {
                         <div className="lg:col-span-5 relative">
                             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.1)] border border-[var(--color-neutral-200)]">
                                 <Image
-                                    src="/images/portfolio/premium-build-04.jpg"
+                                    src="/images/portfolio/premium-build-04.webp"
                                     alt="HRF Customs framing process on a luxury custom home build"
                                     fill
                                     className="object-cover"

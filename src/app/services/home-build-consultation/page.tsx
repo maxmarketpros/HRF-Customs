@@ -72,7 +72,7 @@ export default function HomeBuildConsultation() {
             {/* 1. HERO SECTION */}
             <section className="relative w-full min-h-[60vh] md:min-h-[500px] lg:min-h-[70vh] flex items-center pt-36 pb-24 lg:pt-40 lg:pb-0">
                 <Image
-                    src="/images/services/home-build-consultation/hero.jpg"
+                    src="/images/services/home-build-consultation/hero.webp"
                     alt="Pristine finished luxury estate representing the ultimate consulting goal"
                     fill
                     className="object-cover object-center"
@@ -127,7 +127,7 @@ export default function HomeBuildConsultation() {
                         <div className="lg:col-span-5 relative">
                             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.15)] border border-[var(--color-neutral-100)]">
                                 <Image
-                                    src="/images/services/home-build-consultation/local-relevance.jpg"
+                                    src="/images/services/home-build-consultation/local-relevance.webp"
                                     alt="Expert consultation on massive luxury estate build"
                                     fill
                                     className="object-cover"
@@ -148,7 +148,7 @@ export default function HomeBuildConsultation() {
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-lg translate-y-8">
                                     <Image
-                                        src="/images/services/home-build-consultation/synergy.jpg"
+                                        src="/images/services/home-build-consultation/synergy.webp"
                                         alt="Stunning architectural synergy achieved through planning"
                                         fill
                                         className="object-cover"
@@ -156,7 +156,7 @@ export default function HomeBuildConsultation() {
                                 </div>
                                 <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-lg">
                                     <Image
-                                        src="/images/portfolio/custom-home-20230710.jpg"
+                                        src="/images/portfolio/custom-home-20230710.webp"
                                         alt="Flawless estate resulting from expert early-stage consultation"
                                         fill
                                         className="object-cover"
@@ -263,7 +263,7 @@ export default function HomeBuildConsultation() {
                         <div className="relative order-2">
                             <div className="relative aspect-[4/5] lg:aspect-square rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/10">
                                 <Image
-                                    src="/images/services/home-build-consultation/structural.jpg"
+                                    src="/images/services/home-build-consultation/structural.webp"
                                     alt="Luxury mountain estate aggressively integrated into steep terrain"
                                     fill
                                     className="object-cover"

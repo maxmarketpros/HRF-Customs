@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     siteName: "HRF Customs",
     images: [
       {
-        url: "/images/logo.png", // Assuming this exists, or use a specific OG image if available
+        url: "/images/logo.webp", // Assuming this exists, or use a specific OG image if available
         width: 1200,
         height: 630,
         alt: "HRF Customs Logo",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     title: "HRF Customs | Trusted Custom Home Builder in Paradise, UT",
     description:
       "Owner led custom home building and general contracting in Northern Utah, Southern Idaho, and Western Wyoming. 15 plus years of experience. 250 plus happy customers.",
-    images: ["/images/logo.png"],
+    images: ["/images/logo.webp"],
   },
   icons: {
     icon: "/favicon.ico",
@@ -118,7 +118,7 @@ export default function RootLayout({
       ],
       sameAs: [],
       priceRange: "$$$$",
-      image: "https://hrfcustoms.com/images/logo.png",
+      image: "https://hrfcustoms.com/images/logo.webp",
     },
     {
       "@context": "https://schema.org",

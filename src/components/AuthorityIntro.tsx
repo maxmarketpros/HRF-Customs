@@ -62,7 +62,7 @@ export default function AuthorityIntro() {
                     <div className="relative order-1 lg:order-2 flex flex-col justify-start">
                         <div className="relative w-full aspect-square rounded-2xl overflow-hidden shadow-2xl border-4 border-white mb-6">
                             <Image
-                                src="/images/portfolio/premium-build-01.jpg"
+                                src="/images/portfolio/premium-build-01.webp"
                                 alt="Custom home built by HRF Customs in Northern Utah"
                                 fill
                                 className="object-cover"

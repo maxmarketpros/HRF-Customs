@@ -74,7 +74,7 @@ export default function LuxuryCustomHomeBuilder() {
             {/* 1. HERO SECTION */}
             <section className="relative w-full min-h-[60vh] md:min-h-[500px] lg:min-h-[70vh] flex items-center pt-36 pb-24 lg:pt-40 lg:pb-0">
                 <Image
-                    src="/images/services/luxury-custom-home-builder/hero.jpg"
+                    src="/images/services/luxury-custom-home-builder/hero.webp"
                     alt="Massive premium craftsman luxury home built by HRF Customs"
                     fill
                     className="object-cover object-center"
@@ -129,7 +129,7 @@ export default function LuxuryCustomHomeBuilder() {
                         <div className="lg:col-span-5 relative">
                             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.15)] border border-[var(--color-neutral-100)]">
                                 <Image
-                                    src="/images/services/luxury-custom-home-builder/local-relevance.jpg"
+                                    src="/images/services/luxury-custom-home-builder/local-relevance.webp"
                                     alt="Massive completed luxury estate spanning across a Paradise UT landscape"
                                     fill
                                     className="object-cover"
@@ -150,7 +150,7 @@ export default function LuxuryCustomHomeBuilder() {
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-lg translate-y-8">
                                     <Image
-                                        src="/images/services/luxury-custom-home-builder/synergy.jpg"
+                                        src="/images/services/luxury-custom-home-builder/synergy.webp"
                                         alt="Pristine finished interior of a luxury home showcasing material synergy"
                                         fill
                                         className="object-cover"
@@ -158,7 +158,7 @@ export default function LuxuryCustomHomeBuilder() {
                                 </div>
                                 <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-lg">
                                     <Image
-                                        src="/images/portfolio/premium-build-01.jpg"
+                                        src="/images/portfolio/premium-build-01.webp"
                                         alt="Architectural execution on a custom luxury home"
                                         fill
                                         className="object-cover"
@@ -265,7 +265,7 @@ export default function LuxuryCustomHomeBuilder() {
                         <div className="relative order-2">
                             <div className="relative aspect-[4/5] lg:aspect-square rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/10">
                                 <Image
-                                    src="/images/services/luxury-custom-home-builder/structural.jpg"
+                                    src="/images/services/luxury-custom-home-builder/structural.webp"
                                     alt="Massive structural timber framing for a luxury custom home"
                                     fill
                                     className="object-cover"

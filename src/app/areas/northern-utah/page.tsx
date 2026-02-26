@@ -81,7 +81,7 @@ export default function NorthernUtahArea() {
             {/* 1. HERO SECTION */}
             <section className="relative w-full min-h-[60vh] md:min-h-[500px] lg:min-h-[70vh] flex items-center pt-36 pb-24 lg:pt-40 lg:pb-0">
                 <Image
-                    src="/images/areas/northern-utah/hero.jpg"
+                    src="/images/areas/northern-utah/hero.webp"
                     alt="Massive custom home built in the rugged mountains of Northern Utah"
                     fill
                     className="object-cover object-center"
@@ -136,7 +136,7 @@ export default function NorthernUtahArea() {
                         <div className="lg:col-span-5 relative">
                             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.15)] border border-[var(--color-neutral-100)]">
                                 <Image
-                                    src="/images/areas/northern-utah/local-relevance.jpg"
+                                    src="/images/areas/northern-utah/local-relevance.webp"
                                     alt="Expertly landscaped luxury home built in Northern Utah terrain"
                                     fill
                                     className="object-cover"
@@ -159,7 +159,7 @@ export default function NorthernUtahArea() {
                         <div className="lg:col-span-5 relative order-2 lg:order-1">
                             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-xl">
                                 <Image
-                                    src="/images/areas/northern-utah/synergy.jpg"
+                                    src="/images/areas/northern-utah/synergy.webp"
                                     alt="The pinnacle of luxury home building in Northern Utah"
                                     fill
                                     className="object-cover"
@@ -269,7 +269,7 @@ export default function NorthernUtahArea() {
                         <div className="relative order-2">
                             <div className="relative aspect-[4/5] lg:aspect-square rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/10">
                                 <Image
-                                    src="/images/areas/northern-utah/structural.jpg"
+                                    src="/images/areas/northern-utah/structural.webp"
                                     alt="Engineered structural retaining walls blending into Northern Utah landscaping"
                                     fill
                                     className="object-cover"

@@ -73,7 +73,7 @@ export default function FramingContractor() {
             {/* 1. HERO SECTION */}
             <section className="relative w-full min-h-[60vh] md:min-h-[500px] lg:min-h-[70vh] flex items-center pt-36 pb-24 lg:pt-40 lg:pb-0">
                 <Image
-                    src="/images/services/framing-contractor/hero.jpg"
+                    src="/images/services/framing-contractor/hero.webp"
                     alt="Massive custom home framing structure by HRF Customs"
                     fill
                     className="object-cover object-center"
@@ -128,7 +128,7 @@ export default function FramingContractor() {
                         <div className="lg:col-span-5 relative">
                             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.15)] border border-[var(--color-neutral-100)]">
                                 <Image
-                                    src="/images/services/framing-contractor/local-relevance.jpg"
+                                    src="/images/services/framing-contractor/local-relevance.webp"
                                     alt="Detailed framing joints executed by HRF Customs"
                                     fill
                                     className="object-cover"
@@ -149,7 +149,7 @@ export default function FramingContractor() {
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-lg translate-y-8">
                                     <Image
-                                        src="/images/services/framing-contractor/synergy.jpg"
+                                        src="/images/services/framing-contractor/synergy.webp"
                                         alt="Massive roofline and architectural framing"
                                         fill
                                         className="object-cover"
@@ -157,7 +157,7 @@ export default function FramingContractor() {
                                 </div>
                                 <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-lg">
                                     <Image
-                                        src="/images/portfolio/custom-home-20230710.jpg"
+                                        src="/images/portfolio/custom-home-20230710.webp"
                                         alt="Finished exterior showcasing how framing translates to final luxury"
                                         fill
                                         className="object-cover"
@@ -264,7 +264,7 @@ export default function FramingContractor() {
                         <div className="relative order-2">
                             <div className="relative aspect-[4/5] lg:aspect-square rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/10">
                                 <Image
-                                    src="/images/services/framing-contractor/structural.jpg"
+                                    src="/images/services/framing-contractor/structural.webp"
                                     alt="Complex heavy timber and structural steel framing hybrid"
                                     fill
                                     className="object-cover"

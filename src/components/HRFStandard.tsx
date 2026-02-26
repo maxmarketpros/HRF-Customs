@@ -42,7 +42,7 @@ export default function HRFStandard() {
                             {/* Image - The Transparent PNG */}
                             <div className="relative w-full aspect-[4/3] max-w-[800px] mx-auto z-10 transition-transform duration-700 hover:scale-[1.03]">
                                 <Image
-                                    src="/images/hrf-customs-premium-build-05.png"
+                                    src="/images/hrf-customs-premium-build-05.webp"
                                     alt="HRF Customs Premium Build Schematic"
                                     fill
                                     className="object-contain drop-shadow-[0_25px_35px_rgba(0,0,0,0.25)]"

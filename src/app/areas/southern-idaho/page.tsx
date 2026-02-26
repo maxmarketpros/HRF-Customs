@@ -79,7 +79,7 @@ export default function SouthernIdahoArea() {
             {/* 1. HERO SECTION */}
             <section className="relative w-full min-h-[60vh] md:min-h-[500px] lg:min-h-[70vh] flex items-center pt-36 pb-24 lg:pt-40 lg:pb-0">
                 <Image
-                    src="/images/areas/southern-idaho/hero.jpg"
+                    src="/images/areas/southern-idaho/hero.webp"
                     alt="Massive acreage luxury estate built in Southern Idaho"
                     fill
                     className="object-cover object-center"
@@ -134,7 +134,7 @@ export default function SouthernIdahoArea() {
                         <div className="lg:col-span-5 relative">
                             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.15)] border border-[var(--color-neutral-100)]">
                                 <Image
-                                    src="/images/areas/southern-idaho/local-relevance.jpg"
+                                    src="/images/areas/southern-idaho/local-relevance.webp"
                                     alt="Expertly landscaped luxury property in remote Southern Idaho"
                                     fill
                                     className="object-cover"
@@ -156,7 +156,7 @@ export default function SouthernIdahoArea() {
                         <div className="lg:col-span-5 relative order-2 lg:order-1">
                             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-xl">
                                 <Image
-                                    src="/images/areas/southern-idaho/synergy.jpg"
+                                    src="/images/areas/southern-idaho/synergy.webp"
                                     alt="High-end finishes and structural superiority for an Idaho custom build"
                                     fill
                                     className="object-cover"
@@ -266,7 +266,7 @@ export default function SouthernIdahoArea() {
                         <div className="relative order-2">
                             <div className="relative aspect-[4/5] lg:aspect-square rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/10">
                                 <Image
-                                    src="/images/areas/southern-idaho/structural.jpg"
+                                    src="/images/areas/southern-idaho/structural.webp"
                                     alt="Massive structural retaining walls built in remote Idaho"
                                     fill
                                     className="object-cover"

@@ -5,35 +5,35 @@ import { useState } from "react";
 
 const projects = [
     {
-        src: "/images/featured-builds/modern-lakeview-custom-home.jpg",
+        src: "/images/featured-builds/modern-lakeview-custom-home.webp",
         alt: "Modern lakeview custom home by HRF Customs",
         caption: "Modern Lakeview Custom",
         location: "Northern Utah",
         span: "col-span-1 md:col-span-2 row-span-2",
     },
     {
-        src: "/images/featured-builds/traditional-ranch-style-home.jpg",
+        src: "/images/featured-builds/traditional-ranch-style-home.webp",
         alt: "Traditional ranch style estate by HRF Customs",
         caption: "Hillside Ranch Estate",
         location: "Idaho",
         span: "col-span-1 row-span-1",
     },
     {
-        src: "/images/featured-builds/rustic-log-cabin-home.jpg",
+        src: "/images/featured-builds/rustic-log-cabin-home.webp",
         alt: "Rustic mountain log cabin by HRF Customs",
         caption: "Rustic Mountain Cabin",
         location: "Utah",
         span: "col-span-1 row-span-1",
     },
     {
-        src: "/images/featured-builds/mountain-estate-home.jpg",
+        src: "/images/featured-builds/mountain-estate-home.webp",
         alt: "Mountain ridge estate by HRF Customs",
         caption: "Mountain Ridge Estate",
         location: "Utah",
         span: "col-span-1 row-span-1",
     },
     {
-        src: "/images/featured-builds/modern-timber-barn-home.jpg",
+        src: "/images/featured-builds/modern-timber-barn-home.webp",
         alt: "Modern timber barn house by HRF Customs",
         caption: "Timber Barn House",
         location: "Idaho",
