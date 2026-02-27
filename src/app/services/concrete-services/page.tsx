@@ -87,7 +87,7 @@ export default function ConcreteServices() {
                             The Unbreakable Baseline
                         </div>
                         <h1 className="text-4xl lg:text-6xl xl:text-7xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.1] mb-6">
-                            Structural Concrete Services
+                            Structural Concrete Services in Paradise, UT
                         </h1>
                         <p className="text-lg lg:text-xl text-neutral-300 leading-relaxed max-w-2xl mb-10 font-[family-name:var(--font-inter)]">
                             Luxury estates demand an uncompromising anchor. HRF Customs executes deep structural foundations, massive hillside retaining walls, and flawless architectural flatwork for the most demanding builds in Cache Valley.
@@ -111,7 +111,7 @@ export default function ConcreteServices() {
                     <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
                         <div className="lg:col-span-7">
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-8">
-                                Why Concrete is the Greatest Liability in Mountain Construction
+                                Why Structural Concrete is the Greatest Liability in Mountain Construction in Paradise, UT
                             </h2>
                             <div className="space-y-6 text-[var(--color-neutral-600)] text-lg leading-relaxed font-medium">
                                 <p>
@@ -172,7 +172,7 @@ export default function ConcreteServices() {
                                     Architectural Compliance
                                 </div>
                                 <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                    Where the Blueprint Hits the Dirt
+                                    Structural Concrete Services: Where the Blueprint Hits the Dirt
                                 </h2>
                                 <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed mb-10 font-medium">
                                     Concrete is the unforgiving translation of paper into reality. If a foundation is poured out of square, every subsequent trade—framers, cabinetmakers, roofers—must actively try to hide the defect for the next two years of construction.
@@ -199,7 +199,7 @@ export default function ConcreteServices() {
                                         </div>
                                         <div>
                                             <h3 className="text-2xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-3">
-                                                Architectural Flatwork
+                                                Architectural Concrete Flatwork in Paradise, UT
                                             </h3>
                                             <p className="text-[var(--color-neutral-600)] leading-relaxed">
                                                 Concrete shouldn't just be hidden in the dirt. We specialize in high-end exterior living spaces, executing sweeping, exposed-aggregate driveways, massive stamped patios, and clean-line modern steps that enhance the architectural aesthetic of the finished luxury estate.
@@ -229,7 +229,7 @@ export default function ConcreteServices() {
                                 Structural Defenses
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.15] mb-8">
-                                Combating Water and Ice
+                                Combating Water and Ice in Paradise, UT
                             </h2>
                             <p className="text-neutral-400 text-lg leading-relaxed mb-10">
                                 Cache Valley experiences massive snow accumulation and volatile spring melts. If you simply pour a concrete wall into the side of a mountain without defensive drainage, hydrostatic pressure will eventually destroy it.
@@ -292,7 +292,7 @@ export default function ConcreteServices() {
                 <div className="page-container relative z-10">
                     <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-24">
                         <h3 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                            The Concrete Sequence
+                            The Structural Concrete Sequence in Paradise, UT
                         </h3>
                         <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed">
                             How we aggressively engineer, form, and pour massive concrete monoliths for extreme mountain estates.
@@ -327,7 +327,7 @@ export default function ConcreteServices() {
                                 Technical Clarity
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                Explaining the Foundation
+                                Explaining the Foundation: Structural Concrete FAQ
                             </h2>
                             <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed max-w-2xl mx-auto">
                                 Direct answers on structural mix designs, aggressive high-elevation winter pours, and our extreme waterproofing protocols.

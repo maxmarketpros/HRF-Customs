@@ -86,7 +86,7 @@ export default function ProjectManagement() {
                             Absolute Transparency
                         </div>
                         <h1 className="text-4xl lg:text-6xl xl:text-7xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.1] mb-6">
-                            Elite Project Management
+                            Elite Project Management for Custom Homes in Paradise, UT
                         </h1>
                         <p className="text-lg lg:text-xl text-neutral-300 leading-relaxed max-w-2xl mb-10 font-[family-name:var(--font-inter)]">
                             Multi-million dollar estates demand military-grade logistics. HRF Customs acts as your absolute authority, managing the relentless supply-chain timelines, commanding the subcontractor armies, and defending your master budget.
@@ -110,7 +110,7 @@ export default function ProjectManagement() {
                     <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
                         <div className="lg:col-span-7">
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-8">
-                                Why Disorganized Management Destroys Luxury Builds
+                                Why Disorganized Project Management Destroys Luxury Builds in Paradise, UT
                             </h2>
                             <div className="space-y-6 text-[var(--color-neutral-600)] text-lg leading-relaxed font-medium">
                                 <p>
@@ -171,7 +171,7 @@ export default function ProjectManagement() {
                                     Master Schematics
                                 </div>
                                 <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                    Coordinating the Chaos
+                                    Project Management: Coordinating the Chaos in Paradise, UT
                                 </h2>
                                 <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed mb-10 font-medium">
                                     A massive luxury build generates an endless stream of moving variables. We enforce order by creating centralized, unyielding channels for every financial transaction, schedule shift, and design change.
@@ -184,7 +184,7 @@ export default function ProjectManagement() {
                                         </div>
                                         <div>
                                             <h3 className="text-2xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-3">
-                                                Capital Deployment Tracking
+                                                Capital Deployment Tracking in Project Management in Paradise, UT
                                             </h3>
                                             <p className="text-[var(--color-neutral-600)] leading-relaxed">
                                                 You will never wonder where your money is. We produce live, mathematically rigorous budgets that track original estimates against actual contracted buyout costs. We highlight incoming financial liabilities weeks in advance, ensuring zero surprises during the monthly draw cycles.
@@ -228,7 +228,7 @@ export default function ProjectManagement() {
                                 The Digital Sandbox
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.15] mb-8">
-                                Out-of-State Command Control
+                                Out-of-State Project Management Command Control in Paradise, UT
                             </h2>
                             <p className="text-neutral-400 text-lg leading-relaxed mb-10">
                                 You should not have to fly to Utah every weekend to know what is happening on your job site. We deploy an elite technology stack that brings the dirt directly to your phone.
@@ -291,7 +291,7 @@ export default function ProjectManagement() {
                 <div className="page-container relative z-10">
                     <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-24">
                         <h3 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                            The Project Management Flow
+                            The Project Management Flow in Paradise, UT
                         </h3>
                         <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed">
                             How we systematically organize, communicate, and command massive luxury estate builds over multi-year timelines.
@@ -326,7 +326,7 @@ export default function ProjectManagement() {
                                 Logistics Authority
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                Clarifying The Command Center
+                                Clarifying The Command Center: Project Management FAQ in Paradise, UT
                             </h2>
                             <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed max-w-2xl mx-auto">
                                 Direct answers on out-of-state management, brutal supply-chain procurement, and how we act as the apex financial proxy for our clients.

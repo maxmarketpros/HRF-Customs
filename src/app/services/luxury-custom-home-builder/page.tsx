@@ -173,7 +173,7 @@ export default function LuxuryCustomHomeBuilder() {
                                     Elite Trade Management
                                 </div>
                                 <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                    Uncompromising Trade Synergy & Financial Control
+                                    Uncompromising Trade Synergy & Financial Control for Luxury Custom Home Builders in Paradise, UT
                                 </h2>
                                 <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed mb-10 font-medium">
                                     Executing a true luxury build requires orchestrating dozens of highly specialized artisans and massive structural trades. Chaos is the enemy of perfection. We shield your capital through an elite general contracting model that prioritizes aggressive accountability over volume.
@@ -200,7 +200,7 @@ export default function LuxuryCustomHomeBuilder() {
                                         </div>
                                         <div>
                                             <h3 className="text-2xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-3">
-                                                Master Subcontractor Curation
+                                                Master Subcontractor Curation for Luxury Custom Home Builders in Paradise, UT
                                             </h3>
                                             <p className="text-[var(--color-neutral-600)] leading-relaxed">
                                                 Creating bespoke, imported finishes or executing monumentally complex smart-home wiring cannot be trusted to entry-level crews. We only deploy heavily vetted, elite subcontractors who share our obsession with perfection. We coordinate their schedules ruthlessly to prevent site congestion and enforce grueling quality control hold points before walls are ever closed.
@@ -230,7 +230,7 @@ export default function LuxuryCustomHomeBuilder() {
                                 Structural Dominance
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.15] mb-8">
-                                Extreme Geotechnical and Structural Standards
+                                Extreme Geotechnical and Structural Standards for Luxury Custom Home Builders in Paradise, UT
                             </h2>
                             <p className="text-neutral-400 text-lg leading-relaxed mb-10">
                                 Extravagant finishes mean nothing if the superstructure fails. Building luxury estates in the Paradise topology requires battling high water tables, volatile clay soils, and severe winters. We engineer your property to be a fortress from the sub-grade up.
@@ -293,7 +293,7 @@ export default function LuxuryCustomHomeBuilder() {
                 <div className="page-container relative z-10">
                     <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-24">
                         <h3 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                            The Luxury Estate Build Sequence
+                            The Luxury Custom Home Builder Estate Sequence in Paradise, UT
                         </h3>
                         <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed">
                             A legendary property demands a flawless, ruthlessly organized schedule. We drive the operational timeline to ensure high-grade finishes are protected and capital is deployed efficiently.
@@ -328,7 +328,7 @@ export default function LuxuryCustomHomeBuilder() {
                                 Elite Client Data
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                Luxury Realities in Paradise, UT
+                                Luxury Custom Home Builder Realities in Paradise, UT
                             </h2>
                             <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed max-w-2xl mx-auto">
                                 Direct answers defining the massive logistical and security requirements of building a high-net-worth property in Cache Valley.

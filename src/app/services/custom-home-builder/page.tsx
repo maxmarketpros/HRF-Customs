@@ -147,7 +147,7 @@ export default function ParadiseCustomHomeBuilder() {
                             Elite General Contracting
                         </div>
                         <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                            Financial Transparency and Trade Accountability
+                            Custom Home Builder Financial Transparency and Trade Accountability in Paradise, UT
                         </h2>
                         <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed">
                             A legendary custom home is only as successful as the financial and operational management backing it. We remove the uncertainty from luxury construction by deploying a strictly governed, open-book general contracting model.
@@ -172,7 +172,7 @@ export default function ParadiseCustomHomeBuilder() {
                                 <ClipboardIcon size={28} />
                             </div>
                             <h3 className="text-2xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-4">
-                                Master Trade Coordination
+                                Master Trade Coordination for Custom Homes in Paradise, UT
                             </h3>
                             <p className="text-[var(--color-neutral-600)] leading-relaxed">
                                 We act as your singular point of massive accountability. Our project managers relentlessly sequence specialized trades to prevent schedule overlap and site congestion. We verify the insurance policies, mandate extreme daily site cleanups, and enforce uncompromising quality control hold points. When you hire HRF Customs, you are hiring a sophisticated logistical shield.
@@ -187,7 +187,7 @@ export default function ParadiseCustomHomeBuilder() {
                 <div className="page-container relative z-10">
                     <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-24">
                         <h3 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                            Our Paradise Custom Home Building Process
+                            Our Custom Home Building Process in Paradise, UT
                         </h3>
                         <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed">
                             Executing a massive build requires a ruthless, step-by-step operational framework. From initial groundbreak to the final coat of paint, our management system ensures intense accountability throughout every phase of construction.
@@ -246,7 +246,7 @@ export default function ParadiseCustomHomeBuilder() {
                                 Engineered Tolerances
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.15] mb-8">
-                                Structural Framing and Jobsite Protocol
+                                Structural Framing and Jobsite Protocol for Custom Homes in Paradise, UT
                             </h2>
                             <p className="text-neutral-400 text-lg leading-relaxed mb-10">
                                 The ultimate safety and generational integrity of a luxury custom home build rely entirely on the initial framing and structural engineering phases. We do not trust these critical foundational components to the lowest bidder. HRF Customs deploys intense mandatory jobsite protocol, ensuring sheer walls, massive glulam beams, and deep foundation waterproofing are executed flawlessly to code.
@@ -306,7 +306,7 @@ export default function ParadiseCustomHomeBuilder() {
                                 Architectural Synergy
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-8">
-                                Design, Engineering, and Execution
+                                Custom Home Design, Engineering, and Execution in Paradise, UT
                             </h2>
                             <div className="space-y-6 text-[var(--color-neutral-600)] text-lg leading-relaxed font-medium">
                                 <p>
@@ -330,7 +330,7 @@ export default function ParadiseCustomHomeBuilder() {
                                 Service Area Data
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                Paradise, UT Build Logistics
+                                Custom Home Build Logistics for Paradise, UT
                             </h2>
                             <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed max-w-2xl mx-auto">
                                 Comprehensive answers to common operational questions regarding high-end custom home construction within Cache Valley.

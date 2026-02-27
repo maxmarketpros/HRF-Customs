@@ -111,7 +111,7 @@ export default function DesignBuildContractor() {
                     <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
                         <div className="lg:col-span-7">
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-8">
-                                Why Utilize a Design-Build Contractor for Your Estate?
+                                Why Utilize a Design-Build Contractor for Your Estate in Paradise, UT?
                             </h2>
                             <div className="space-y-6 text-[var(--color-neutral-600)] text-lg leading-relaxed font-medium">
                                 <p>
@@ -172,7 +172,7 @@ export default function DesignBuildContractor() {
                                     Architectural Synergy
                                 </div>
                                 <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                    Bridging the Gap Between Paper and Dirt
+                                    Design Build Contractor: Bridging the Gap Between Paper and Dirt in Paradise, UT
                                 </h2>
                                 <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed mb-10 font-medium">
                                     A beautiful blueprint is useless if it cannot be built within budget or without structural compromise. Our design-build model injects hardcore, boots-on-the-ground reality into the theoretical design phase.
@@ -199,7 +199,7 @@ export default function DesignBuildContractor() {
                                         </div>
                                         <div>
                                             <h3 className="text-2xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-3">
-                                                Accelerated Project Delivery
+                                                Accelerated Project Delivery for Design Build in Paradise, UT
                                             </h3>
                                             <p className="text-[var(--color-neutral-600)] leading-relaxed">
                                                 The traditional linear model is slow. By integrating construction management during the design phase, HRF Customs can overlap schedules. We can begin aggressive site excavation and pour complex foundations while the final interior millwork diagrams are still being completed, violently shrinking the total project timeline.
@@ -229,7 +229,7 @@ export default function DesignBuildContractor() {
                                 Execute with Authority
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.15] mb-8">
-                                Managing the Realities of Volatile Terrain
+                                Managing Volatile Terrain as a Design Build Contractor in Paradise, UT
                             </h2>
                             <p className="text-neutral-400 text-lg leading-relaxed mb-10">
                                 Paradise, UT offers stunning vistas, but those vistas come with extreme physical demands. Designing for foothills requires respecting the geotechnical realities. Our field execution teams ensure the paper design survives the physical world.
@@ -292,7 +292,7 @@ export default function DesignBuildContractor() {
                 <div className="page-container relative z-10">
                     <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-24">
                         <h3 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                            The Design-Build Sequence
+                            The Design-Build Sequence in Paradise, UT
                         </h3>
                         <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed">
                             A highly synchronized workflow that merges the creative design phase with uncompromising, heavy construction logistics.
@@ -327,7 +327,7 @@ export default function DesignBuildContractor() {
                                 Executive Clarity
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                Defining the Design-Build Shift
+                                Defining the Design-Build Shift in Paradise, UT
                             </h2>
                             <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed max-w-2xl mx-auto">
                                 Direct answers on how unifying the architect and the master builder permanently eliminates the most dangerous risks in luxury estate construction.

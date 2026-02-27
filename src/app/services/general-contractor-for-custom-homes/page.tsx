@@ -87,7 +87,7 @@ export default function GeneralContractor() {
                             Elite Job Site Orchestration
                         </div>
                         <h1 className="text-4xl lg:text-6xl xl:text-7xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.1] mb-6">
-                            General Contractor for Custom Homes
+                            General Contractor for Custom Homes in Paradise, UT
                         </h1>
                         <p className="text-lg lg:text-xl text-neutral-300 leading-relaxed max-w-2xl mb-10 font-[family-name:var(--font-inter)]">
                             HRF Customs operates as the master orchestrator of massive residential builds. We provide unrelenting quality control, elite subcontractor curation, and ironclad timeline enforcement for high-net-worth clients across Paradise and Cache Valley.
@@ -111,7 +111,7 @@ export default function GeneralContractor() {
                     <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
                         <div className="lg:col-span-7">
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-8">
-                                Why is Elite General Contracting Mandatory for Luxury Builds?
+                                Why is an Elite General Contractor Mandatory for Luxury Custom Homes in Paradise, UT?
                             </h2>
                             <div className="space-y-6 text-[var(--color-neutral-600)] text-lg leading-relaxed font-medium">
                                 <p>
@@ -172,7 +172,7 @@ export default function GeneralContractor() {
                                     Trade Coordination
                                 </div>
                                 <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                    Eliminating the Subcontractor Disconnect
+                                    General Contractor for Custom Homes: Eliminating the Subcontractor Disconnect in Paradise, UT
                                 </h2>
                                 <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed mb-10 font-medium">
                                     A luxury home is thousands of moving parts executed by dozens of companies. Without an aggressive apex predator managing the workflow, the project will immediately devolve into finger-pointing and costly rework.
@@ -199,7 +199,7 @@ export default function GeneralContractor() {
                                         </div>
                                         <div>
                                             <h3 className="text-2xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-3">
-                                                Defensive Capital Control
+                                                Defensive Capital Control for Custom Homes in Paradise, UT
                                             </h3>
                                             <p className="text-[var(--color-neutral-600)] leading-relaxed">
                                                 We act as an absolute firewall between your capital and external trades. We fiercely audit every subcontractor invoice against actual, verified job site completion. If an electrician claims 80% rough-in completion, our superintendent personally walks the floor to verify every wire drop before a single dollar is authorized for release.
@@ -229,7 +229,7 @@ export default function GeneralContractor() {
                                 Tactical Execution
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.15] mb-8">
-                                Managing Ground-Truth Logistics
+                                General Contractor Managing Ground-Truth Logistics in Paradise, UT
                             </h2>
                             <p className="text-neutral-400 text-lg leading-relaxed mb-10">
                                 Cache Valley mountain builds demand military-grade logistics. Mud, altitude, and winter freezes mercilessly expose weak general contracting. We deploy proactive defensive measures to ensure the structure isn't compromised before the walls go up.
@@ -292,7 +292,7 @@ export default function GeneralContractor() {
                 <div className="page-container relative z-10">
                     <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-24">
                         <h3 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                            The Orchestration Sequence
+                            The General Contractor Orchestration Sequence in Paradise, UT
                         </h3>
                         <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed">
                             How we systematically deploy, manage, and verify elite subcontractors across the lifespan of a multi-million-dollar estate build.
@@ -327,7 +327,7 @@ export default function GeneralContractor() {
                                 Executive Clarity
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                Demanding Excellence
+                                Demanding Excellence: Custom Home General Contractor FAQ
                             </h2>
                             <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed max-w-2xl mx-auto">
                                 Direct answers on how we insulate our clients from liability, force subcontractor compliance, and manage massive capital deployment safely.

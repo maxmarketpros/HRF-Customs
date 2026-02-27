@@ -86,7 +86,7 @@ export default function HomeBuildConsultation() {
                             Advisory Intelligence
                         </div>
                         <h1 className="text-4xl lg:text-6xl xl:text-7xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.1] mb-6">
-                            Home Build Consultation
+                            Home Build Consultation in Paradise, UT
                         </h1>
                         <p className="text-lg lg:text-xl text-neutral-300 leading-relaxed max-w-2xl mb-10 font-[family-name:var(--font-inter)]">
                             Before committing millions of dollars to a vision, seek the truth. HRF Customs acts as your private advisory proxy, delivering unvarnished clarity on lot feasibility, architectural reality, and true construction budgets.
@@ -110,7 +110,7 @@ export default function HomeBuildConsultation() {
                     <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
                         <div className="lg:col-span-7">
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-8">
-                                Why Vision Requires Extreme Grounding
+                                Why a Home Build Consultation Requires Extreme Grounding in Paradise, UT
                             </h2>
                             <div className="space-y-6 text-[var(--color-neutral-600)] text-lg leading-relaxed font-medium">
                                 <p>
@@ -171,7 +171,7 @@ export default function HomeBuildConsultation() {
                                     The First Defense
                                 </div>
                                 <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                    Identifying the Hidden Costs
+                                    Home Build Consultation: Identifying the Hidden Costs in Paradise, UT
                                 </h2>
                                 <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed mb-10 font-medium">
                                     Many general contractors will aggressively obscure the true total cost to build just to secure the framing contract. We bring the painful numbers to the surface immediately.
@@ -198,7 +198,7 @@ export default function HomeBuildConsultation() {
                                         </div>
                                         <div>
                                             <h3 className="text-2xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-3">
-                                                Red-Lining the Architect
+                                                Red-Lining the Architect During a Home Build Consultation in Paradise, UT
                                             </h3>
                                             <p className="text-[var(--color-neutral-600)] leading-relaxed">
                                                 Architects are artists. Builders are pragmatists. We act as the necessary friction against overly ambitious designs. If an architect specifies a massive, unsupported cantilevered deck that exceeds your stated budget, we red-line the drawing and force a return to financial reality.
@@ -228,7 +228,7 @@ export default function HomeBuildConsultation() {
                                 Terrain Intelligence
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.15] mb-8">
-                                Respecting the Mountain
+                                Respecting the Mountain During Your Home Build Consultation in Paradise, UT
                             </h2>
                             <p className="text-neutral-400 text-lg leading-relaxed mb-10">
                                 Cache Valley offers some of the most stunning, volatile residential build sites in the country. We consult explicitly on how to weaponize the natural terrain rather than fighting a losing battle against it.
@@ -291,7 +291,7 @@ export default function HomeBuildConsultation() {
                 <div className="page-container relative z-10">
                     <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-24">
                         <h3 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                            The Advisory Sequence
+                            The Home Build Consultation Advisory Sequence in Paradise, UT
                         </h3>
                         <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed">
                             How we systematically vet your multi-million dollar vision against the harsh realities of Northern Utah construction.
@@ -326,7 +326,7 @@ export default function HomeBuildConsultation() {
                                 Financial Clarity
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                Explaining The Consultation
+                                Explaining The Home Build Consultation FAQ in Paradise, UT
                             </h2>
                             <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed max-w-2xl mx-auto">
                                 Direct answers on independent intelligence gathering, remote-client advisory services, and protecting your capital.

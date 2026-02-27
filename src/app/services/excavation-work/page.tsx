@@ -87,7 +87,7 @@ export default function ExcavationWork() {
                             Commanding the Earth
                         </div>
                         <h1 className="text-4xl lg:text-6xl xl:text-7xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.1] mb-6">
-                            Precision Excavation Work
+                            Precision Excavation Work & Earthmoving in Paradise, UT
                         </h1>
                         <p className="text-lg lg:text-xl text-neutral-300 leading-relaxed max-w-2xl mb-10 font-[family-name:var(--font-inter)]">
                             Elite construction begins with raw force and calculated geometry. HRF Customs executes massive earthmoving, utility trenching, and aggressive pad preparation for monumental estates across Cache Valley.
@@ -111,7 +111,7 @@ export default function ExcavationWork() {
                     <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
                         <div className="lg:col-span-7">
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-8">
-                                Why Uncompromising Excavation is the Baseline of Success
+                                Why Uncompromising Excavation Work is the Baseline of Success in Paradise, UT
                             </h2>
                             <div className="space-y-6 text-[var(--color-neutral-600)] text-lg leading-relaxed font-medium">
                                 <p>
@@ -172,7 +172,7 @@ export default function ExcavationWork() {
                                     Geometrical Authority
                                 </div>
                                 <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                    Engineering the Topology
+                                    Earthmoving and Engineering the Topology in Paradise, UT
                                 </h2>
                                 <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed mb-10 font-medium">
                                     Every cubic yard of dirt removed from your lot is calculated explicitly to benefit the final architectural structure. We do not just dig holes; we sculpt the site infrastructure.
@@ -185,7 +185,7 @@ export default function ExcavationWork() {
                                         </div>
                                         <div>
                                             <h3 className="text-2xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-3">
-                                                Structural Pads
+                                                Structural Pads for Excavation Work
                                             </h3>
                                             <p className="text-[var(--color-neutral-600)] leading-relaxed">
                                                 A massive luxury estate exerts crushing pressure on the ground below it. We aggressively compact the dirt pad with heavy machinery and specialized vibrating rollers, frequently hauling in thousands of tons of engineered structural gravel to ensure the earth cannot sink beneath the home.
@@ -229,7 +229,7 @@ export default function ExcavationWork() {
                                 Logistics Implemented
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.15] mb-8">
-                                Deep Utility Infrastructure
+                                Deep Utility Infrastructure Excavation in Paradise, UT
                             </h2>
                             <p className="text-neutral-400 text-lg leading-relaxed mb-10">
                                 A bespoke estate is a small, self-sustaining ecosystem. The mechanical veins that feed the home—water, gas, data, and sewer—must be buried deep beneath the earth before construction can advance.
@@ -292,7 +292,7 @@ export default function ExcavationWork() {
                 <div className="page-container relative z-10">
                     <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-24">
                         <h3 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                            The Excavation Sequence
+                            The Excavation and Earthmoving Sequence in Paradise, UT
                         </h3>
                         <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed">
                             How we systematically mobilize heavy machinery to strip, cut, and enforce geometric order upon rugged mountain terrain.
@@ -327,7 +327,7 @@ export default function ExcavationWork() {
                                 Technical Clarity
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                Defining the Dirt
+                                Defining the Dirt: Excavation Work FAQ
                             </h2>
                             <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed max-w-2xl mx-auto">
                                 Direct answers on managing rocky terrain, massive material exportation, and why the first day of dirtwork sets the tone for the entire multi-year build.

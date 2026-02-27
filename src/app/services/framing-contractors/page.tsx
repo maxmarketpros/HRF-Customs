@@ -87,7 +87,7 @@ export default function FramingContractor() {
                             The Structural Skeleton
                         </div>
                         <h1 className="text-4xl lg:text-6xl xl:text-7xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.1] mb-6">
-                            Elite Framing Contractors
+                            Elite Framing Contractors in Paradise, UT
                         </h1>
                         <p className="text-lg lg:text-xl text-neutral-300 leading-relaxed max-w-2xl mb-10 font-[family-name:var(--font-inter)]">
                             The foundation of bespoke luxury is millimeter perfection. HRF Customs executes massive timber framing, structural steel integration, and extreme snow-load rooflines for Cache Valley's most monumental estates.
@@ -111,7 +111,7 @@ export default function FramingContractor() {
                     <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
                         <div className="lg:col-span-7">
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-8">
-                                Why Uncompromising Framing is the Deciding Factor in Luxury
+                                Why Uncompromising Framing Contractors are the Deciding Factor in Luxury in Paradise, UT
                             </h2>
                             <div className="space-y-6 text-[var(--color-neutral-600)] text-lg leading-relaxed font-medium">
                                 <p>
@@ -172,7 +172,7 @@ export default function FramingContractor() {
                                     Architectural Compliance
                                 </div>
                                 <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                    Defending the Future Finishes
+                                    Framing Contractors: Defending the Future Finishes in Paradise, UT
                                 </h2>
                                 <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed mb-10 font-medium">
                                     Elite framing is a defensive maneuver. We build the skeleton explicitly to protect and elevate the incredibly expensive finish trades that will follow us into the structure months later.
@@ -199,7 +199,7 @@ export default function FramingContractor() {
                                         </div>
                                         <div>
                                             <h3 className="text-2xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-3">
-                                                Pre-Emptive Backing
+                                                Pre-Emptive Backing for Expert Framing Contractors in Paradise, UT
                                             </h3>
                                             <p className="text-[var(--color-neutral-600)] leading-relaxed">
                                                 We read the interior design blueprints intimately. Before a single sheet of drywall is hung, we install hundreds of pounds of solid wood backing inside the walls. This guarantees that when it is time to mount heavy flat screens, floating vanities, or massive art installations, there is bulletproof structural wood exactly where the designer intends.
@@ -229,7 +229,7 @@ export default function FramingContractor() {
                                 Engineering Realities
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.15] mb-8">
-                                Surviving Extreme Environments
+                                Framing Contractors Surviving Extreme Environments in Paradise, UT
                             </h2>
                             <p className="text-neutral-400 text-lg leading-relaxed mb-10">
                                 Building a three-story structural skeleton on the side of a mountain in Cache Valley is not for novices. We engineer our framing to withstand hurricane-force canyon winds, seismic activity, and crushing snow loads.
@@ -292,7 +292,7 @@ export default function FramingContractor() {
                 <div className="page-container relative z-10">
                     <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-24">
                         <h3 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                            The Framing Sequence
+                            The Framing Contractor Sequence in Paradise, UT
                         </h3>
                         <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed">
                             How we methodically erect massive, uncompromising skeletons for Northern Utah's most prestigious custom homes.
@@ -327,7 +327,7 @@ export default function FramingContractor() {
                                 Technical Clarity
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                Explaining the Skeleton
+                                Explaining the Skeleton: Framing Contractors FAQ
                             </h2>
                             <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed max-w-2xl mx-auto">
                                 Direct answers on structural integrity, weather engineering, and why our framing methodology is non-negotiable for luxury estates.
