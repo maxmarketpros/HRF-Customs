@@ -1,53 +1,83 @@
-import { StarIcon, ArrowRightIcon } from "./icons";
+import { GoogleIcon, StarIcon } from "./icons";
+
+const GOOGLE_REVIEW_URL = "https://share.google/pFgbzQH2rMAszs7uQ";
 
 const testimonials = [
     {
-        initials: "RM",
-        location: "Cache Valley, UT",
+        initials: "R",
+        name: "Rex Schwab",
+        meta: "6 reviews • 3 photos",
         rating: 5,
-        text: "From the very first meeting, the HRF team was straightforward about costs, timelines, and what to expect. They managed every massive trade on our build and kept us updated. Our monumental home came together exactly as aggressively planned.",
+        text: "These guys did a custom home for us in 2019. The years of experience showed back then. Now they have even more. Can't go wrong with these guys.",
+        avatarClassName: "bg-[#5B34B1] text-white",
     },
     {
-        initials: "TL",
-        location: "Northern Utah",
+        initials: "HR",
+        name: "Harley Ryan",
+        meta: "0 reviews • 0 photos",
         rating: 5,
-        text: "We chose HRF Customs because we wanted an elite general contractor who would actually be on the job site. The owner was involved from day one and handled every detail personally. The communication and intense organization were outstanding.",
+        text: "HRF is hands down one of the best companies around. Awesome customer service, years of quality service and a team of guys with knowledge and experience to build your dream house from the ground up! In this world, it's hard to find a company. That'll be true to their word do everything they're gonna say they're gonna do show up on time when they say they're gonna show up and get the job done to absolute perfection. Josh and his team are no nonsense company. They truly care about the work they put out and making their customers happy. I would absolutely refer them to anybody and everybody out there.",
+        avatarClassName: "bg-[#F1F5F9] text-[#0F172A] border border-[var(--color-neutral-200)]",
     },
     {
-        initials: "JK",
-        location: "Southern Idaho",
+        initials: "L",
+        name: "Lance Leishman",
+        meta: "3 reviews • 0 photos",
         rating: 5,
-        text: "Building a highly complex custom home felt overwhelming until we began working with HRF Customs. They stripped away the confusion, built a heavy-duty realistic budget, and managed the build with complete brutal transparency.",
+        text: "Straight forward quality work awesome communication. Allways a enjoyable jobs site atmosphere from subcontractors to homeowner interactions.",
+        avatarClassName: "bg-[#F97316] text-white",
     },
 ];
 
 export default function TestimonialsPreview() {
     return (
-        <section id="testimonials" className="py-24 lg:py-32 bg-[#f8fafc] relative overflow-hidden">
+        <section id="testimonials" className="relative overflow-hidden bg-[#f8fafc] py-24 lg:py-32">
             <div className="page-container relative z-10">
-                <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-24">
-                    <div className="inline-flex items-center px-4 py-1.5 bg-[var(--color-primary)]/10 text-[var(--color-primary)] text-xs font-bold uppercase tracking-[0.2em] rounded mb-6 w-max border border-[var(--color-primary)]/20 mx-auto">
+                <div className="mx-auto mb-16 max-w-3xl text-center lg:mb-24">
+                    <div className="mx-auto mb-6 inline-flex w-max items-center rounded border border-[var(--color-primary)]/20 bg-[var(--color-primary)]/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] text-[var(--color-primary)]">
                         Client Verification
                     </div>
 
-                    <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
+                    <h2 className="mb-6 text-3xl font-bold leading-[1.15] text-[var(--color-neutral-900)] font-[family-name:var(--font-outfit)] lg:text-5xl">
                         Reputation Built <br /> On Hard Data
                     </h2>
-                    <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed">
+                    <p className="text-lg leading-relaxed text-[var(--color-neutral-600)]">
                         The majority of our premium construction projects come exclusively through direct referrals and repeat clients. That deep trust is only earned through relentless delivery on extreme custom builds.
                     </p>
                 </div>
 
-                <div className="grid lg:grid-cols-3 gap-8">
+                <div className="grid gap-8 lg:grid-cols-3">
                     {testimonials.map((testimonial, index) => (
-                        <div key={index} className="relative group p-8 lg:p-10 bg-white border border-[var(--color-neutral-100)] rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.03)] hover:shadow-[0_25px_60px_rgba(0,0,0,0.06)] transition-all duration-500 flex flex-col items-start hover:-translate-y-2">
+                        <a
+                            key={index}
+                            href={GOOGLE_REVIEW_URL}
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label={`Read ${testimonial.name}'s Google review`}
+                            className="group relative flex h-full flex-col items-start rounded-3xl border border-[var(--color-neutral-100)] bg-white p-8 shadow-[0_20px_50px_rgba(0,0,0,0.03)] transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_25px_60px_rgba(0,0,0,0.06)] lg:p-10"
+                        >
+                            <div className="relative z-10 mb-8 flex w-full items-start justify-between gap-4">
+                                <div className="flex min-w-0 items-center gap-4">
+                                    <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-full text-sm font-bold tracking-wider ${testimonial.avatarClassName}`}>
+                                        {testimonial.initials}
+                                    </div>
+                                    <div className="min-w-0">
+                                        <p className="truncate text-base font-bold text-[var(--color-neutral-900)] font-[family-name:var(--font-outfit)]">
+                                            {testimonial.name}
+                                        </p>
+                                        <p className="text-sm text-[var(--color-neutral-500)]">
+                                            {testimonial.meta}
+                                        </p>
+                                    </div>
+                                </div>
 
-                            {/* Decorative Quote Icon Watermark */}
-                            <div className="absolute top-8 right-8 text-8xl font-serif text-[var(--color-neutral-50)] leading-none pointer-events-none select-none">
-                                "
+                                <div className="inline-flex shrink-0 items-center gap-2 rounded-full border border-[var(--color-neutral-200)] bg-[var(--color-neutral-50)] px-3 py-1 text-xs font-semibold text-[var(--color-neutral-700)] transition-colors group-hover:border-[var(--color-primary)]/30 group-hover:text-[var(--color-primary)]">
+                                    <GoogleIcon size={16} />
+                                    Google
+                                </div>
                             </div>
 
-                            <div className="flex gap-1 mb-8 relative z-10">
+                            <div className="relative z-10 mb-6 flex gap-1">
                                 {Array.from({ length: testimonial.rating }).map((_, i) => (
                                     <StarIcon
                                         key={i}
@@ -57,28 +87,18 @@ export default function TestimonialsPreview() {
                                 ))}
                             </div>
 
-                            <p className="text-base text-[var(--color-neutral-600)] leading-loose flex-1 font-medium relative z-10 italic">
-                                "{testimonial.text}"
+                            <p className="relative z-10 flex-1 overflow-hidden text-base font-medium leading-loose text-[var(--color-neutral-600)] [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:8]">
+                                {testimonial.text}
                             </p>
 
-                            <div className="flex items-center gap-4 mt-10 pt-8 border-t border-[var(--color-neutral-100)] w-full relative z-10">
-                                <div className="w-12 h-12 rounded-full bg-[var(--color-primary)]/10 border border-[var(--color-primary)]/20 flex items-center justify-center text-[var(--color-primary)] text-sm font-bold tracking-wider">
-                                    {testimonial.initials}
-                                </div>
-                                <div className="flex flex-col">
-                                    <p className="text-sm font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] tracking-wide">
-                                        Verified Client
-                                    </p>
-                                    <p className="text-xs font-semibold text-[var(--color-neutral-500)] uppercase tracking-wider">
-                                        {testimonial.location}
-                                    </p>
-                                </div>
+                            <div className="relative z-10 mt-8 w-full border-t border-[var(--color-neutral-100)] pt-6">
+                                <span className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--color-primary)] transition-transform duration-300 group-hover:translate-x-1">
+                                    Read more on Google
+                                </span>
                             </div>
-                        </div>
+                        </a>
                     ))}
                 </div>
-
-                {/* Button Removed */}
             </div>
         </section>
     );

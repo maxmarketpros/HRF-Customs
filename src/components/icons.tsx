@@ -616,6 +616,37 @@ export function BarChartIcon({ className = "", size = 20 }: IconProps) {
     );
 }
 
+export function GoogleIcon({ className = "", size = 20 }: IconProps) {
+    return (
+        <svg
+            width={size}
+            height={size}
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className={className}
+            aria-hidden="true"
+        >
+            <path
+                d="M21.805 12.227c0-.818-.073-1.604-.209-2.364H12v4.473h5.498a4.703 4.703 0 0 1-2.04 3.086v2.56h3.306c1.935-1.782 3.041-4.41 3.041-7.755Z"
+                fill="#4285F4"
+            />
+            <path
+                d="M12 22.182c2.754 0 5.061-.913 6.748-2.473l-3.306-2.56c-.913.613-2.08.975-3.442.975-2.649 0-4.894-1.788-5.694-4.191H2.889v2.64A10.182 10.182 0 0 0 12 22.182Z"
+                fill="#34A853"
+            />
+            <path
+                d="M6.306 13.933A6.12 6.12 0 0 1 5.987 12c0-.67.115-1.32.319-1.933v-2.64H2.889A10.182 10.182 0 0 0 1.818 12c0 1.626.388 3.166 1.071 4.573l3.417-2.64Z"
+                fill="#FBBC04"
+            />
+            <path
+                d="M12 5.876c1.497 0 2.841.515 3.9 1.525l2.924-2.924C17.055 2.835 14.748 1.818 12 1.818A10.182 10.182 0 0 0 2.889 7.427l3.417 2.64c.8-2.403 3.045-4.191 5.694-4.191Z"
+                fill="#EA4335"
+            />
+        </svg>
+    );
+}
+
 export function CalculatorIcon({ className = "", size = 20 }: IconProps) {
     return (
         <svg
